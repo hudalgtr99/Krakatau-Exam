@@ -1,0 +1,11 @@
+user_id	user_name	user_password	user_email	user_regdate	user_ip	user_firstname	user_lastname	user_birthdate	user_birthplace	user_regnumber	user_ssn	user_level	user_verifycode	user_otpkey	user_groups
+30	aaa			2021-07-09 13:43:31	0000:0000:0000:0000:0000:ffff:7f00:0001							0		DCBTKR3YH5EQNKRO	
+34	bayu		bayu@gmail.com	2023-01-07 12:27:02	0000:0000:0000:0000:0000:ffff:7f00:0001							1		5Z2HFF6I4PUJ23NC	warmadi,X AKL 1
+31	bbb			2021-07-09 13:45:14	0000:0000:0000:0000:0000:ffff:7f00:0001							0		MXIO6CC5CJMN6LQ2	
+32	ccc			2021-07-09 13:46:44	0000:0000:0000:0000:0000:ffff:7f00:0001							0		V2OOMIPBULO774AP	default
+33	ddd			2021-07-09 13:48:14	0000:0000:0000:0000:0000:ffff:7f00:0001							0		WUS7I5A6GISK3UQ6	
+29	qweqwe			2021-07-07 15:40:23	0000:0000:0000:0000:0000:ffff:7f00:0001							0		BQRK7GAF2LUEXNVG	default
+26	andi			2021-07-06 18:08:44	0000:0000:0000:0000:0000:ffff:7f00:0001	Andi Ardianto						1			X TKJ 1
+27	bima			2021-07-06 18:08:44	0000:0000:0000:0000:0000:ffff:7f00:0001	Bima Bardianto						1			X TKRO 1
+25	maman			2021-07-06 18:08:43	0000:0000:0000:0000:0000:ffff:7f00:0001	Maman Sulaeman						1			tkj
+2	admin			2021-07-06 18:08:44	0000:0000:0000:0000:0000:ffff:7f00:0001	Mimin Administrator						10			aaa,bbb,default,warmadi

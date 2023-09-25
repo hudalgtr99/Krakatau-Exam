@@ -1,0 +1,20 @@
+M=MODULE	module_enabled	module_name
+S=SUBJECT	subject_enabled	subject_name	subject_description
+Q=QUESTION	question_enabled	question_description	question_explanation	question_type	question_difficulty	question_position	question_timer	question_fullscreen	question_inline_answers	question_auto_next
+A=ANSWER	answer_enabled	answer_description	answer_explanation	answer_isright	answer_position	answer_keyboard_key
+
+M	1	DASAR MATEMATIKA LHOG
+S	1	PENJUMLAHAN	
+Q	1	Huruf pertama dalam abjad alphabet dalam huruf besar adalah ...		S	1		0	0	0	0
+A	1	A		1		
+A	1	a		0		
+A	1	4		0		
+A	1	c		0		
+A	1	d		0		
+A	1	qwerqwe		0		
+Q	1	Pilihan yang tepat untuk operasi penjumlahan yang menghasilkan angka 10 dengan menggunakan 2 angka yang sama		M	1		0	0	0	0
+A	1	5+5		1		
+A	1	3+7		0		
+A	1	4+6		0		
+A	1	1+9		0		
+A	1	10+0		0		

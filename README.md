@@ -4,7 +4,7 @@ Aplikasi ujian ini dibuat berdasarkan aplikasi ujian TCExam yang mana telah memb
 
 ### Halaman Login
 
-<img src="https://i.postimg.cc/jdXJ6hzq/Screenshot-2023-10-03-141440.png" width="200px"/>
+<img src="https://i.postimg.cc/jdXJ6hzq/Screenshot-2023-10-03-141440.png" width="800px"/>
 
 Halaman login adalah sebuah tampilan atau layar yang digunakan untuk mengidentifikasi pengguna sebelum mereka dapat mengakses suatu sistem, aplikasi, atau situs web. Halaman ini meminta pengguna untuk memasukkan informasi pengenal, seperti nama pengguna (username), serta kata sandi (password) yang telah didaftarkan sebelumnya. Tujuan dari halaman login adalah untuk memberikan akses yang terbatas kepada pengguna yang telah terotentikasi, melindungi informasi pribadi, dan mencegah akses tidak sah ke suatu platform.
 

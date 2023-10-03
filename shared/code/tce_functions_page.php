@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_page.php
-// Begin       : 2002-03-21
-// Last Update : 2011-02-05
-//
-// Description : Functions for XHTML pages.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions for XHTML pages.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2002-03-21
- */
 
 /**
  * Display Pages navigation index.

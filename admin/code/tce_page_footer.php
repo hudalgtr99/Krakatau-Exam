@@ -1,34 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_page_footer.php
-// Begin       : 2001-09-02
-// Last Update : 2009-09-30
-//
-// Description : Outputs default XHTML page footer.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * output default XHTML page footer
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2001-09-02
- */
-
-/**
- */
 function TMF_scrollToTop(){
 	$res = '<button id="keatas" class="d-print-none btn position-fixed rounded-circle text-white p-0" style="background:rgba(63,106,216,0.8);width:30px;height:30px;right:15px;bottom:10px;display:none;z-index:1000"><i class="fa fa-arrow-up"></i></button>';
 	return $res;

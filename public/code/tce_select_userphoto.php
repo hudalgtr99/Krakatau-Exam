@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_select_mediafile.php
-// Begin       : 2010-09-20
-// Last Update : 2014-01-21
-//
-// Description : Select media file for questions or answer description
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Select media file for questions or answer description
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2010-09-22
- */
-
-/**
- */
-
 
 require_once('../config/tce_config.php');
 

@@ -1,37 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_errmsg.php
-// Begin       : 2001-09-17
-// Last Update : 2013-12-11
-//
-// Description : handle error messages
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Handle error/warning/system messages.<br>
- * messagetype:
- * <ul>
- * <li>message</li>
- * <li>warning</li>
- * <li>error</li>
- * </ul>
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2001-09-17
- */
 
 /**
  * Handle error/warning/system messages.

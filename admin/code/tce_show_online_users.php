@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_show_online_users.php
-// Begin       : 2001-10-18
-// Last Update : 2020-05-06
-//
-// Description : Display online user's data.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display online user's data.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2001-10-18
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

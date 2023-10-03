@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_user_verification.php
-// Begin       : 2008-03-31
-// Last Update : 2012-11-22
-//
-// Description : User verification.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * User verification.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2008-03-30
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

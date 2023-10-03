@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_tsv_questions.php
-// Begin       : 2006-03-06
-// Last Update : 2013-09-05
-//
-// Description : Functions to export questions using CVS format.
-//               (tab-separated values)
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display all questions grouped by topic in TSV format.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2012-12-31
- */
-
-/**
- */
 
 if ((isset($_REQUEST['expmode']) and ($_REQUEST['expmode'] > 0))
     and (isset($_REQUEST['module_id']) and ($_REQUEST['module_id'] > 0))

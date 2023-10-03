@@ -1,14 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_generate_test_json_user.php
-// Begin       : 2021-02-25
-// Last Update : -
-//
-// Description : Generate JSON of test results for specified user.
-//
-// Author: Maman Sulaeman
-//
-//============================================================+
 
 require_once('../config/tce_config.php');
 

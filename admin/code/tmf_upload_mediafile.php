@@ -1,8 +1,4 @@
 <?php
-//============================================================+
-// File name	: tmf_upload_mediafile.php
-// Author		: Maman Sulaeman
-//============================================================+
 
 require_once('../config/tce_config.php');
 

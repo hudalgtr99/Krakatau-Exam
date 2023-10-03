@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_svg_graph.php
-// Begin       : 2012-04-15
-// Last Update : 2013-07-14
-//
-// Description : Function to create an SVG graph for user results.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Function to create an SVG graph for user results.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2013-07-14
- */
-
-/**
- */
 
 /**
  * Replace angular parenthesis with html equivalents (html entities).

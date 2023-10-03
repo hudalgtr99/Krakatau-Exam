@@ -1,23 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xhtml_header.php
-// Begin       : 2004-04-24
-// Last Update : 2013-01-29
-//
-// Description : Output defaults XHTML header (doctype + head).
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
 /**
  * @file

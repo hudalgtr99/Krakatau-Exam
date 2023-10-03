@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_ldap.php
-// Begin       : 2008-03-28
-// Last Update : 2015-03-27
-//
-// Description : Configuration file for LDAP
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2015  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file for LDAP
- * LDAP is the Lightweight Directory Access Protocol, and is a protocol used to access "Directory Servers".
- * The Directory is a special kind of database that holds information in a tree structure.
- * Check http://www.php.net/manual/en/ref.ldap.php for requirements and installation.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2008-03-28
- */
 
 /**
  * If true enable LDAP.

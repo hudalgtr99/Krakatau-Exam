@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_test_execute.php
-// Begin       : 2004-05-29
-// Last Update : 2016-03-15
-//
-// Description : execute a specific test
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Execute a specific test.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2004-05-29
- */
-
-/**
- */
-
 
 require_once('../config/tce_config.php');
 
@@ -131,6 +100,31 @@ if (isset($_REQUEST['testid']) and ($_REQUEST['testid'] > 0)) {
             echo '</html>'.K_NEWLINE;
             exit;
         }
+
+        // Kunci layar penuh
+        echo '<script>';
+        echo 'document.addEventListener("keydown", function (e) {';
+        echo 'if (e.key === "F11" || (e.ctrlKey && e.key === "Tab")) {';
+        echo 'e.preventDefault();';
+        echo '}';
+        echo '});';
+        echo '</script>';
+
+        // Deteksi pergantian tab
+        echo '<script>';
+        echo 'let isWindowFocused = true;';
+        echo 'window.onblur = function () {';
+        echo 'isWindowFocused = false;';
+        echo '};';
+        echo 'window.onfocus = function () {';
+        echo 'isWindowFocused = true;';
+        echo '};';
+        echo 'setInterval(function () {';
+        echo 'if (!isWindowFocused) {';
+        echo 'alert("Anda tidak diperkenankan untuk mengganti tab selama ujian berlangsung.");';
+        echo '}';
+        echo '}, 1000);';
+        echo '</script>';
 
         // the user is authorized to execute the selected test
 		$test_name = F_getTestName($test_id);

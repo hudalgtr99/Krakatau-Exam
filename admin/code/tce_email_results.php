@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_email_results.php
-// Begin       : 2005-02-24
-// Last Update : 2014-01-27
-//
-// Description : Interface to send test reports to users via
-//               email.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Interface to send email test reports to users.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2005-02-24
- */
-
- /**
- */
 
 require_once('../config/tce_config.php');
 

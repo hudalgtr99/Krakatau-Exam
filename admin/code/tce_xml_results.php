@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xml_results.php
-// Begin       : 2008-06-06
-// Last Update : 2014-01-27
-//
-// Description : Export all users' results in XML or JSON format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Export all users' results in XML or JSON format.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2004-06-11
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 $pagelevel = K_AUTH_ADMIN_RESULTS;

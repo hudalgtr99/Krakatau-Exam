@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_form.php
-// Begin       : 2001-11-07
-// Last Update : 2020-05-06
-//
-// Description : Functions to handle XHTML Form Fields.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to handle XHTML Form Fields.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2001-11-07
- */
-
-/**
- */
 
 $formstatus = true; //reset form status
 

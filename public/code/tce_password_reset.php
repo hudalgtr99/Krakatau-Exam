@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_password_reset.php
-// Begin       : 2012-04-14
-// Last Update : 2018-07-06
-//
-// Description : Password Reset form.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display password reset form.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2008-03-30
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

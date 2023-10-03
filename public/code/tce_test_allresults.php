@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_test_allresults.php
-// Begin       : 2004-06-10
-// Last Update : 2020-06-12
-//
-// Description : Display test results summary.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display test results summary.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2012-12-19
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

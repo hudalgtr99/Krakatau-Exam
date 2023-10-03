@@ -1,36 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_config.php
-// Begin       : 2001-10-23
-// Last Update : 2010-09-26
-//
-// Description : Configuration file for public section.
-//
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file for public section.
- * @package com.tecnick.tcexam.public.cfg
- * @brief TCExam Configuration for Public Area
- * @author Nicola Asuni
- * @since 2001-10-23
- */
-
-/**
- */
 
 // --- INCLUDE FILES -----------------------------------------------------------
 

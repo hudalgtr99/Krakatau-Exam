@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_mime.php
-// Begin       : 2005-03-04
-// Last Update : 2009-11-10
-//
-// Description : file extension - MIME type associations
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file for MIME types.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2005-03-04
- */
 
 /**
  * The $mime array associate each file extension with a specific MIME type.

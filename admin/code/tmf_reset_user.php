@@ -1,18 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_reset_user.php
-// Begin       : 2023-01-21
-// Last Update : 2023-01-21
-//
-// Description : Reset user after blocked by multi login policy
-//
-// Author: Maman Sulaeman
-//
-// (c) Copyright:
-//               Maman Sulaeman
-//               Xamzone Apps Universe
-//============================================================+
-
 
 require_once('../config/tce_config.php');
 

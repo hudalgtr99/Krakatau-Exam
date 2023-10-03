@@ -1,33 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_user_registration.php
-// Begin       : 2008-03-30
-// Last Update : 2017-04-01
-//
-// Description : Configuration file for user registration.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Configuration file for user registration.
- * NOTE: the email verification template is stored on the
- * TMX file at "m_email_registration" translation unit.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2008-03-30
- */
 $genset = unserialize(file_get_contents('../../shared/config/tmf_general_settings.json'));
 /**
  * If true enable USER REGISTRATION.

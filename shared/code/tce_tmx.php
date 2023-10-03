@@ -1,58 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_tmx.php
-// Begin       : 2004-10-19
-// Last Update : 2010-08-09
-//
-// Description : TMX-PHP Bridge Class
-// Platform    : PHP 5
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//
-// 	This program is free software: you can redistribute it and/or modify
-// 	it under the terms of the GNU Lesser General Public License as published by
-// 	the Free Software Foundation, either version 2.1 of the License, or
-// 	(at your option) any later version.
-//
-// 	This program is distributed in the hope that it will be useful,
-// 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-// 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// 	GNU Lesser General Public License for more details.
-//
-// 	You should have received a copy of the GNU Lesser General Public License
-// 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
-//
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * TMX-PHP Bridge Class (TMXResourceBundle).
- * @package com.tecnick.tmxphpbridge
- */
-
-/**
- * @class TMXResourceBundle
- * This PHP Class reads resource text data directly from a TMX (XML) file.
- * First, the XMLTMXResourceBundle class instantiates itself with two parameters:
- * a TMX file name and a target language name. Then, using an XML parser, it
- * reads all of a translation unit's properties for the key information and
- * specified language data and populates the resource array with them (key -> value).
- *
- * @package com.tecnick.tmxphpbridge
- * @brief TMX-PHP Bridge Class
- * @author Nicola Asuni [www.tecnick.com]
- * @version 1.1.005
- */
 class TMXResourceBundle
 {
 

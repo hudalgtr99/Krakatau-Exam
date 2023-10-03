@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_page_header.php
-// Begin       : 2001-09-18
-// Last Update : 2010-09-20
-//
-// Description : Outputs default XHTML page header.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Outputs default XHTML page header.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2001-09-18
- */
-
-/**
- */
 
 if(!isset($_POST['question-block'])){
 require_once('tce_xhtml_header.php');

@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_authorization.php
-// Begin       : 2001-09-26
-// Last Update : 2013-07-02
-//
-// Description : Functions for Authorization / LOGIN
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions for Authorization / LOGIN
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2001-09-26
- */
 
 /**
  * Returns XHTML / CSS formatted string for login form.<br>

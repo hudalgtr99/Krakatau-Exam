@@ -1,33 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_config.php
-// Begin       : 2002-02-24
-// Last Update : 2020-04-01
-//
-// Description : Shared configuration file.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright 2004-2020:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               UK
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Shared configuration file.
- * @package com.tecnick.tcexam.shared.cfg
- * @brief TCExam Main Configuration
- * @author Nicola Asuni
- * @since 2002-02-24
- */
 
  /*
 * General Settings

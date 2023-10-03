@@ -1,31 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_functions_test_select.php
-// Begin       : 2012-12-02
-// Last Update : 2014-03-04
-//
-// Description : Functions to display and select tests.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Functions to display and select tests.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2012-12-02
- */
 
 /**
  * Display test selection for using F_show_select_test function.

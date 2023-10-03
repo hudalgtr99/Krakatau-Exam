@@ -1,36 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_import_omr_bulk.php
-// Begin       : 2012-07-31
-// Last Update : 2014-05-14
-//
-// Description : Import in bulk test answers using OMR 
-//               (Optical Mark Recognition)
-//               technique applied to images of scanned answer sheets.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Import in bulk test answers using OMR (Optical Mark Recognition) technique applied to images of scanned answer sheets.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2012-07-31
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

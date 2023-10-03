@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_html2txt.php
-// Begin       : 2001-10-21
-// Last Update : 2017-04-22
-//
-// Description : Function to convert HTML code to Text string.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Function to convert HTML code to Text string.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2003-03-31
- */
 
 /**
  * Convert HTML code to Text string.

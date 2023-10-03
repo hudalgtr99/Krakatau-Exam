@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : index.php
-// Begin       : 2004-04-20
-// Last Update : 2012-12-04
-//
-// Description : main user page - allows test selection
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Main page of TCExam Public Area.
- * @package com.tecnick.tcexam.public
- * @brief TCExam Public Area
- * @author Nicola Asuni
- * @since 2004-04-20
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

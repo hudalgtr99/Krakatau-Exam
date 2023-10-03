@@ -1,14 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_toggle_answer.php
-// Begin       : 2021-03-13
-// Last Update : -
-//
-// Description : Toggle answer right/wrong
-//
-// Author: Maman Sulaeman
-//
-//============================================================+
 
 require_once('../config/tce_config.php');
 

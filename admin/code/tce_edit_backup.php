@@ -1,37 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_edit_backup.php
-// Begin       : 2009-04-06
-// Last Update : 2020-05-06
-//
-// Description : Backup and Restore TCExam Database.
-//               ONLY FOR POSIX SYSTEMS
-//               SOME POSIX COMMANDS ARE HARD-CODED
-//               ONLY FOR MySQL and PostgreSQL
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Backup and Restore TCExam Database (works only on POSIX systems with MySQL or PostgreSQL).
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2010-02-12
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

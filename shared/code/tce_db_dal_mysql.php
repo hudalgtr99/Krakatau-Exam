@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_db_dal_mysql.php
-// Begin       : 2003-10-12
-// Last Update : 2014-03-31
-//
-// Description : MySQL driver for TCExam Database Abstraction
-//               Layer (DAL).
-//               This abstraction use the same SQL syntax
-//               of MySQL.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * MySQL driver for TCExam Database Abstraction Layer (DAL).
- * This abstraction layer uses the same SQL syntax of MySQL.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2003-10-12
- */
 
 /**
  * Open a connection to a MySQL Server and select a database.

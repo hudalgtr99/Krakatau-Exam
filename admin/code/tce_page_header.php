@@ -1,34 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_page_header.php
-// Begin       : 2001-09-18
-// Last Update : 2010-05-10
-//
-// Description : output default XHTML page header
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Outputs default XHTML page header.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2001-09-18
- */
-
-/**
- */
 if(f_sc_name('tmf_show_offline_sheet.php')){
 	require_once('tce_xhtml_header_offline.php');
 }else{

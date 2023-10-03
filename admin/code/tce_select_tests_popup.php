@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_select_tests_popup.php
-// Begin       : 2012-12-02
-// Last Update : 2013-04-09
-//
-// Description : Display user selection table on popup window.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display user selection table on popup window.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2012-12-02
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

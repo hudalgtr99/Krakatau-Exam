@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : cp_class_mailer.php
-// Begin       : 2001-10-20
-// Last Update : 2020-01-03
-//
-// Description : Extend PHPMailer class with inheritance
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * PHPMailer class extension.
- * @package PHPMailer
- * @brief PHP email transport class
- * @author Nicola Asuni
- * @since 2005-02-24
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 
@@ -43,13 +12,6 @@ require_once('../../shared/config/tce_email_config.php'); // Include default pub
 require_once('../../shared/phpmailer/src/autoload.php');
 require_once('../../shared/phpmailer/src/PHPMailer.php');
 
-/**
- * @class C_mailer
- * PHPMailer class extension.
- * @author Nicola Asuni
- * @package PHPMailer
- * @since 2005-02-24
- */
 class C_mailer extends PHPMailer\PHPMailer\PHPMailer
 {
     /**

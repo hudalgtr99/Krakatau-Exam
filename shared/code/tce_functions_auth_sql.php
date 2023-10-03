@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_auth_sql.php
-// Begin       : 2006-03-11
-// Last Update : 2012-12-19
-//
-// Description : Functions to select topics.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to select topics.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-11
- */
 
 /**
  * Returns a SQL string to select modules accounting for user authorizations.

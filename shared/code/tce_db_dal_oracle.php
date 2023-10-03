@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_db_dal_oracle.php
-// Begin       : 2009-10-09
-// Last Update : 2014-01-26
-//
-// Description : Oracle driver for TCExam Database
-//               Abstraction Layer (DAL).
-//               This abstraction use the same SQL syntax
-//               of MySQL.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Oracle driver for TCExam Database Abstraction Layer (DAL).
- * This abstraction layer uses the same SQL syntax of MySQL.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2009-10-09
- */
 
 /**
  * Open a connection to a Oracle Server and select a database.

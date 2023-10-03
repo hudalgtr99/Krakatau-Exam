@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_tcecode.php
-// Begin       : 2002-01-09
-// Last Update : 2013-12-24
-//
-// Description : Functions to translate TCExam code into XHTML.
-//               The TCExam code is compatible to the common BBCode.
-//               Supports LaTeX and MathML.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to translate TCExam proprietary code into XHTML.
- * The TCExam code is compatible to the common BBCode.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2002-01-09
- */
 
 /**
  * Returns XHTML code from text marked-up with TCExam Code Tags

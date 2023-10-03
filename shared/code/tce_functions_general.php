@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_general.php
-// Begin       : 2001-09-08
-// Last Update : 2014-02-03
-//
-// Description : General functions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * General functions.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2001-09-08
- */
 
 /**
  * Count rows of the given table.

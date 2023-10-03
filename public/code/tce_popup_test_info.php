@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_popup_test_info.php
-// Begin       : 2004-05-28
-// Last Update : 2010-09-17
-//
-// Description : Output test information using popup page
-//               headers.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Output test information using popup page headers.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2004-05-28
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

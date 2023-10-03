@@ -1,36 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_tsv_result_allusers.php
-// Begin       : 2006-03-30
-// Last Update : 2014-01-21
-//
-// Description : Functions to export users' results using
-//               TSV file format (tab delimited text).
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display all test results in TSV format.
- * (Tab Delimited Text File)
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-30
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 $pagelevel = K_AUTH_ADMIN_RESULTS;

@@ -1,14 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_qjson_data.php
-// Begin       : 2021-02-25
-// Last Update : -
-//
-// Description : Data question and answer for JSON File
-//
-// Author: Maman Sulaeman
-//
-//============================================================+
 
 function F_getUserTestStat($test_id, $user_id = 0, $testuser_id = 0, $pubmode = false)
 {

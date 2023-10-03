@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_page_user.php
-// Begin       : 2010-09-20
-// Last Update : 2010-09-20
-//
-// Description : Output XHTML unordered list menu for user.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Output XHTML unordered list menu for user.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2010-09-20
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

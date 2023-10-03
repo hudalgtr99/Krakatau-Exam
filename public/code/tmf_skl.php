@@ -1,18 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_skl.php
-// File path   : public/code/tmf_skl.php
-// Begin       : 2021-04-27
-// Last Update : 2021-05-04
-//
-// Description : display SKL
-//
-// Author: Maman Sulaeman
-//
-// License:
-//    Free and Open Source
-//============================================================+
-
 
 require_once('../../shared/config/tce_config.php');
 require_once('../config/tce_config.php');

@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_user_select.php
-// Begin       : 2001-09-13
-// Last Update : 2014-03-04
-//
-// Description : Functions to display and select registered user.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to display and select registered user.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2001-09-13
- */
 
 /**
  * Display user selection for using F_show_select_user function.

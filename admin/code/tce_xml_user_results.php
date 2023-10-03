@@ -1,23 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xml_user_results.php
-// Begin       : 2008-12-26
-// Last Update : 2013-09-05
-//
-// Description : Export all user's results in XML or JSON format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
 /**
  * @file
@@ -29,9 +10,6 @@
  * @param $_REQUEST['startdate'] (int) start date
  * @param $_REQUEST['enddate'] (int) end date
  * @param $_REQUEST['orderfield'] (string) ORDER BY portion of SQL selection query
- */
-
-/**
  */
 
 require_once('../config/tce_config.php');

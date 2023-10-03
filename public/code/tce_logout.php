@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_logout.php
-// Begin       : 2001-09-28
-// Last Update : 2010-10-04
-//
-// Description : Destroy user's session (logout).
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Destroy user's session (logout).
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2001-09-28
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 require_once('../../shared/code/tce_functions_session.php');

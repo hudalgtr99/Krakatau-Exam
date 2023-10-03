@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_radius.php
-// Begin       : 2008-01-15
-// Last Update : 2012-09-11
-//
-// Description : Configuration file for RADIUS Render Class.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file for RADIUS Render Class.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2008-01-15
- */
 
 /**
  * If true enable RADIUS.

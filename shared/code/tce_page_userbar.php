@@ -1,33 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_page_userbar.php
-// Begin       : 2004-04-24
-// Last Update : 2012-12-30
-//
-// Description : Display user's bar containing copyright
-//               information, user status and language
-//               selector.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display user's bar containing copyright information, user status and language selector.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2004-04-24
- */
 
 // IMPORTANT: DO NOT REMOVE OR ALTER THIS PAGE!
 

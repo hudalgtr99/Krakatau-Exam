@@ -1,35 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_tsv_users.php
-// Begin       : 2006-03-30
-// Last Update : 2013-09-05
-//
-// Description : Functions to export users using TSV format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Display all users in TSV format.
- * (Tab Delimited Text File)
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-30
- */
-
-/**
- */
 
 // check user's authorization
 require_once('../config/tce_config.php');
@@ -38,33 +8,11 @@ require_once('../../shared/code/tce_authorization.php');
 require_once 'PHPExcel/Classes/PHPExcel/IOFactory.php';
 $objPHPExcel    =   new PHPExcel();
 $objWriter  =   new PHPExcel_Writer_Excel2007($objPHPExcel);
-	
-/*
-// send headers
-header('Content-Description: XLSX File');
-header('Cache-Control: public, must-revalidate, max-age=0'); // HTTP/1.1
-header('Pragma: public');
-header('Expires: Sat, 26 Jul 1997 05:00:00 GMT'); // Date in the past
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
-// force download dialog
-header('Content-Type: application/force-download');
-header('Content-Type: application/octet-stream', false);
-header('Content-Type: application/download', false);
-header('Content-Type: application/vnd.ms-excel', false);
-// use the Content-Disposition header to supply a recommended filename
-header('Content-Disposition: attachment; filename=tcexam_users_'.date('YmdHis').'.xlsx;');
-header('Content-Transfer-Encoding: binary');
-*/
 
 
 echo F_tsv_export_users();
 
-/**
- * Export all users to TSV grouped by users' groups.
- * @author Nicola Asuni
- * @since 2006-03-30
- * @return TSV data
- */
+
 function F_tsv_export_users()
 {
     global $l, $db;

@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_edit_module.php
-// Begin       : 2008-11-28
-// Last Update : 2020-05-06
-//
-// Description : Display form to edit modules.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display form to edit modules.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2008-11-28
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

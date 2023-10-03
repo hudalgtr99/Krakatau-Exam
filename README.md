@@ -1,14 +1,12 @@
-# TMF ( TCExam Mobile Friendly ) CBT For AKM
+# Krakatau CBT Exam
 
-Aplikasi Ujian (CBT) yang cepat, ringan dan gesit, cocok untuk berbagai mata pelajaran maupun segala jenjang pendidikan atau kebutuhan. Mampu menampung banyak peserta ujian dalam satu waktu bersamaan meskipun dijalankan pada shared hosting. 
-Tipe soal cukup beragam, bisa dikondisikan untuk melatih peserta didik mempersiapkan AKM atau untuk event lainnya.
-Projek ini merupakan Forking dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian.
+Aplikasi ujian ini dibuat berdasarkan aplikasi ujian TCExam yang mana telah memberikan access open source untuk user dan developer untuk mengembangkan aplikasi ini secara mandiri. Projek ini merupakan Cloning dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian.
 
-Halaman Login
+### Halaman Login
 
-<img src="https://1.bp.blogspot.com/-3a273pl2fYY/YGwaHMtlOEI/AAAAAAAATfc/ziojUbNS4XI8YvIjFkuPQLZoU8uRJbNrACLcBGAsYHQ/s1862/Screenshot_2021-04-06-15-18-21-007_com.android.chrome.png" width="200px"/>
+<img src="https://i.postimg.cc/jdXJ6hzq/Screenshot-2023-10-03-141440.png" width="200px"/>
 
-Logo sekolah dan nama sekolah serta atribut lainnya dapat diubah sesuai selera.
+Halaman login adalah sebuah tampilan atau layar yang digunakan untuk mengidentifikasi pengguna sebelum mereka dapat mengakses suatu sistem, aplikasi, atau situs web. Halaman ini meminta pengguna untuk memasukkan informasi pengenal, seperti nama pengguna (username), serta kata sandi (password) yang telah didaftarkan sebelumnya. Tujuan dari halaman login adalah untuk memberikan akses yang terbatas kepada pengguna yang telah terotentikasi, melindungi informasi pribadi, dan mencegah akses tidak sah ke suatu platform.
 
 
 Daftar Ujian

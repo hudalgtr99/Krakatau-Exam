@@ -9,6 +9,23 @@ Aplikasi ujian ini dibuat berdasarkan aplikasi ujian TCExam yang mana telah memb
 Halaman login adalah sebuah tampilan atau layar yang digunakan untuk mengidentifikasi pengguna sebelum mereka dapat mengakses suatu sistem, aplikasi, atau situs web. Halaman ini meminta pengguna untuk memasukkan informasi pengenal, seperti nama pengguna (username), serta kata sandi (password) yang telah didaftarkan sebelumnya. Tujuan dari halaman login adalah untuk memberikan akses yang terbatas kepada pengguna yang telah terotentikasi, melindungi informasi pribadi, dan mencegah akses tidak sah ke suatu platform.
 
 
+### Dashboard Admin
+
+<img src="https://i.postimg.cc/25w0WW2P/Screenshot-2023-10-03-142927.png" width="800px"/>
+
+Dashboard admin adalah tampilan utama dalam aplikasi yang dirancang khusus untuk administrator. Pada dashboard admin, Anda akan menemukan informasi penting seperti jumlah group, user, modul, topik, soal, dan tes. 
+
+
+### Daftar User
+
+<img src="https://i.postimg.cc/y6MrBHd5/Screenshot-2023-10-03-143630.png" width="800px"/>
+
+Daftar user terdiri dari:
+- Admin: Pengendali utama aplikasi.
+- Pengawas: Bertanggung jawab memantau dan memberikan arahan.
+- Pelamar: Pengguna dengan tujuan tertentu seperti aplikasi pekerjaan atau mengikuti tes.
+
+
 Daftar Ujian
 
 <img src="https://1.bp.blogspot.com/-xS6uPb0zYQI/YGwbjk6RaKI/AAAAAAAATfo/oNzqY_NPMjUlr3uAvdc0xQPbiv9dTRxcACLcBGAsYHQ/s1857/Screenshot_2021-04-06-15-26-38-765_com.android.chrome.png" width="200px"/>

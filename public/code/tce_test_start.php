@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_test_start.php
-// Begin       : 2010-02-06
-// Last Update : 2012-12-04
-//
-// Description : Display selected test description and buttons
-//               to start or cancel the test.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display selected test description and buttons to start or cancel the test.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2010-02-06
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

@@ -1,39 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_upload.php
-// Begin       : 2001-11-19
-// Last Update : 2010-09-21
-//
-// Description : Upload functions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to upload files.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2001-11-19
- */
-
-/**
- * Check if the uploaded file extension is allowed.
- * @author Nicola Asuni
- * @since 2001-11-19
- * @param $filename (string) the filename
- * @return true in case of allowed file type, false otherwise
- */
 function F_is_allowed_upload($filename)
 {
     if (!defined('K_ALLOWED_UPLOAD_EXTENSIONS')) {

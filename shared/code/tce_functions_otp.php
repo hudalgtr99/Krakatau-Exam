@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_otp.php
-// Begin       : 2012-01-09
-// Last Update : 2012-11-22
-//
-// Description : Functions for One Time Password (OTP).
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions for One Time Password (OTP).
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2012-01-09
- */
 
 /**
  * Return a random One Time Password Secret Key (Base32 encoded).

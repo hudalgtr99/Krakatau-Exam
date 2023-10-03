@@ -1,13 +1,5 @@
 <?php
 //============================================================+
-// File name   : tcpdfex.php
-// Begin       : 2010-12-06
-// Last Update : 2014-04-15
-// Author      : Nicola Asuni - Tecnick.com LTD - www.tecnick.com - info@tecnick.com
-// License     : http://www.tecnick.com/pagefiles/tcpdf/LICENSE.TXT GNU-LGPLv3 + YOU CAN'T REMOVE ANY TCPDF COPYRIGHT NOTICE OR LINK FROM THE GENERATED PDF DOCUMENTS.
-// -------------------------------------------------------------------
-// Copyright (C) 2002-2014 Nicola Asuni - Tecnick.com LTD
-//
 // This file is part of TCPDF software library.
 //
 // TCPDF is free software: you can redistribute it and/or modify it
@@ -33,23 +25,9 @@
 //               requiring external extensions.
 //============================================================+
 
-/**
- * @file
- * This is an extension of the TCPDF class for creating PDF document.
- * This extension allows you to define custom Header and Footer for PDF documents.
- * @package com.tecnick.tcpdf
- * @author Nicola Asuni
- */
-
 require(dirname(__FILE__).'/../tcpdf/tcpdf.php');
 
-/**
- * @class TCPDFEX
- * This is an extension of the TCPDF class for creating PDF document.
- * This extension allows you to define custom Header and Footer for PDF documents.
- * @package com.tecnick.tcpdf
- * @author Nicola Asuni - info@tecnick.com
- */
+
 class TCPDFEX extends TCPDF
 {
 

@@ -1,24 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_pdf_results.php
-// Begin       : 2004-06-10
-// Last Update : 2020-05-06
-//
-// Description : Create PDF document to display test results
-//               summary for all users.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
 /**
  * @file

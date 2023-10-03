@@ -1,42 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xhtml_header.php
-// Begin       : 2004-04-24
-// Last Update : 2011-03-15
-//
-// Description : print default XHTML page header
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * output default XHTML header (doctype + head)
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2004-04-24
- * int $pagelevel page access level (0-10), default 0
- * string $thispage_title page title, default K_TCEXAM_TITLE
- * string $thispage_description page description, default K_TCEXAM_DESCRIPTION
- * string $thispage_author page author, default K_TCEXAM_AUTHOR
- * string $thispage_reply page reply to, default K_TCEXAM_REPLY_TO
- * string $thispage_keywords page keywords, default K_TCEXAM_KEYWORDS
- * string $thispage_icon page icon, default K_TCEXAM_ICON
- * string $thispage_style page CSS file name, default K_TCEXAM_STYLE
- */
-
-/**
- */
 
 //if necessary load default values
 if (!isset($pagelevel) or empty($pagelevel)) {

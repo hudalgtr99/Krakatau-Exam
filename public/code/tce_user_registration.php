@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_user_registration.php
-// Begin       : 2008-03-30
-// Last Update : 2018-07-06
-//
-// Description : User registration form.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display user registration form.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2008-03-30
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

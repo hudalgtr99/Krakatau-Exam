@@ -1,27 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_functions_test_stats_offline_eval.php
-//
-// Author: Nicola Asuni, Maman Sulaeman
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Statistical functions for test results.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2004-06-10
- */
 
 /**
 * Returns statistic array for the test-user

@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_import_users.php
-// Begin       : 2006-03-17
-// Last Update : 2018-11-29
-//
-// Description : Import users from an XML file or tab-delimited
-//               TSV file.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Import users from an XML file or TSV (Tab delimited text file).
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-17
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 
@@ -150,15 +119,6 @@ echo '</div>'.K_NEWLINE;
 
 require_once('../code/tce_page_footer.php');
 
-// ------------------------------------------------------------
-
-/**
- * @class XMLUserImporter
- * This PHP Class imports users and groups data directly from a XML file.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni [www.tecnick.com]
- * @version 1.0.000
- */
 class XMLUserImporter
 {
 

@@ -1,15 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_generate.php
-// Begin       : 2021-02-25
-// Last Update : 2021-02-25
-//
-// Description : Generate Test Data Page
-//
-// Author: Maman Sulaeman
-//
-//
-//============================================================+
 
 require_once('../config/tce_config.php');
 

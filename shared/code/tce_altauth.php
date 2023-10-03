@@ -1,32 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_altauth.php
-// Begin       : 2008-03-28
-// Last Update : 2015-03-29
-//
-// Description : Check user authorization against alternative
-//               systems (SSL, HTTP-BASIC, CAS, SHIBBOLETH, RADIUS, LDAP)
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2015 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Check user authorization against alternative systems (HTTP-BASIC, CAS, SHIBBOLETH, RADIUS, LDAP)
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2008-03-28
- */
 
 /**
  * Try various external Login Systems.

@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_pdf_all_questions.php
-// Begin       : 2004-06-10
-// Last Update : 2011-02-24
-//
-// Description : Creates a PDF document containing exported questions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Creates a PDF document containing exported questions.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2005-07-06
- * @param $_REQUEST['subject_id'] (int) topic ID
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 require_once('../../shared/code/tce_authorization.php');

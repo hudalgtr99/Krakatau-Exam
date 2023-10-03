@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_import_questions.php
-// Begin       : 2006-03-12
-// Last Update : 2013-04-12
-//
-// Description : Import questions from an XML file.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Import questions from an XML file to a selected subject.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-12
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

@@ -1,38 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_functions_omr.php
-// Begin       : 2011-05-17
-// Last Update : 2014-06-11
-//
-// Description : Functions to import test data from scanned
-//               OMR (Optical Mark Recognition) sheets.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2014 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Functions to import test data from scanned OMR (Optical Mark Recognition) sheets.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2011-05-17
- */
-
-/**
- * Encode OMR test data array as a string to be printed on QR-Code.
- * @param $data (array) array to be encoded
- * @return encoded string.
- */
 function F_encodeOMRTestData($data)
 {
     $str = serialize($data);

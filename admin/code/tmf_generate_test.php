@@ -1,13 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_generate_test.php
-// Begin       : 2020-05-20
-// Last Update : 2020-06-22
-//
-// Description : Generate Test Data
-//
-// Author: Maman Sulaeman
-//
 
 require_once('../config/tce_config.php');
 

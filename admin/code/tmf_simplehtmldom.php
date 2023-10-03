@@ -1,25 +1,4 @@
 <?php
-/**
- * Website: http://sourceforge.net/projects/simplehtmldom/
- * Additional projects: http://sourceforge.net/projects/debugobject/
- * Acknowledge: Jose Solorzano (https://sourceforge.net/projects/php-html/)
- *
- * Licensed under The MIT License
- * See the LICENSE file in the project root for more information.
- *
- * Authors:
- *   S.C. Chen
- *   John Schlick
- *   Rus Carroll
- *   logmanoriginal
- *
- * Contributors:
- *   Yousuke Kumakura
- *   Vadim Voituk
- *   Antcs
- *
- * Version Rev. 1.9.1 (291)
- */
 
 define('HDOM_TYPE_ELEMENT', 1);
 define('HDOM_TYPE_COMMENT', 2);

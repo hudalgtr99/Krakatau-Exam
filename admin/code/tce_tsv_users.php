@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_tsv_users.php
-// Begin       : 2006-03-30
-// Last Update : 2013-09-05
-//
-// Description : Functions to export users using TSV format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display all users in TSV format.
- * (Tab Delimited Text File)
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-30
- */
-
-/**
- */
 
 // check user's authorization
 require_once('../config/tce_config.php');

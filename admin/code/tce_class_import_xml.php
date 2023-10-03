@@ -1,38 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_class_import_xml.php
-// Begin       : 2006-03-12
-// Last Update : 2012-11-14
-//
-// Description : Class to import questions from an XML file.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Class to import questions from an XML file.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-12
- */
-
-/**
- * @class XMLQuestionImporter
- * This PHP Class imports question data directly from an XML file.
- * @package com.tecnick.tcexam.admin
- * @version 1.1.000
- */
 class XMLQuestionImporter
 {
 

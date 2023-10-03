@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xml_questions.php
-// Begin       : 2006-03-06
-// Last Update : 2013-09-05
-//
-// Description : Functions to export questions using XML or JSON format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display all questions grouped by topic in XML or JSON format.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2006-03-11
- */
-
-/**
- */
 
 if ((isset($_REQUEST['expmode']) and ($_REQUEST['expmode'] > 0))
     and (isset($_REQUEST['module_id']) and ($_REQUEST['module_id'] > 0))

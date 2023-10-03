@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_xml_question_stats.php
-// Begin       : 2010-05-10
-// Last Update : 2020-05-06
-//
-// Description : Functions to export question stats using XML
-//               or JSON format.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Export question stats in XML or JSON format.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2010-05-10
- */
-
-/**
- */
 
  // check user's authorization
 require_once('../config/tce_config.php');

@@ -1,22 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_update.php
-// Begin       : 2023-02-12
-// Last Update : 2023-02-12
-//
-// Description : Update TMF file on existing instalation
-//
-// Author: Maman Sulaeman
-//
-// (c) Copyright:
-//               Maman Sulaeman
-//               Xamzone Apps Development
-//				 https://xamzonelinux.blogspot.com
-//
-//============================================================+
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

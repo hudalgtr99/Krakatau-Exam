@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_update.php
-// Begin       : 2009-09-14
-// Last Update : 2012-12-20
-//
-// Description : Automatic updates for linux systems.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Automatic updates.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2009-09-14
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 $pagelevel = K_AUTH_ADMINISTRATOR;

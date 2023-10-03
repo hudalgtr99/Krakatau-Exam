@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_statistics.php
-// Begin       : 2008-12-25
-// Last Update : 2010-02-17
-//
-// Description : Functions to calculate descriptive statistics.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to calculate descriptive statistics.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2008-12-25
- */
 
 /**
  * Return an array containing descriptive statistics for the bidimensional input array.

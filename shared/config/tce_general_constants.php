@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_general_constants.php
-// Begin       : 2002-03-01
-// Last Update : 2020-06-12
-//
-// Description : Configuration file for general constants.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file for general constants.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2002-03-01
- */
 
 /**
  * String used as a seed for some security code generation please change this value and keep it secret.

@@ -1,45 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_authorization.php
-// Begin       : 2001-09-26
-// Last Update : 2017-04-22
-//
-// Description : Check user authorization level.
-//               Grants / deny access to pages.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * This script handles user's sessions.
- * Just the registered users granted with a username and a password are entitled to access the restricted areas (level > 0) of TCExam and the public area to perform the tests.
- * The user's level is a numeric value that indicates which resources (pages, modules, services) are accessible by the user.
- * To gain access to a specific resource, the user's level must be equal or greater to the one specified for the requested resource.
- * TCExam has 10 predefined user's levels:<ul>
- * <li>0 = anonymous user (unregistered).</li>
- * <li>1 = basic user (registered);</li>
- * <li>2-9 = configurable/custom levels;</li>
- * <li>10 = administrator with full access rights</li>
- * </ul>
- * @package com.tecnick.tcexam.shared
- * @brief TCExam Shared Area
- * @author Nicola Asuni
- * @since 2001-09-26
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 require_once('../../shared/code/tce_functions_authorization.php');

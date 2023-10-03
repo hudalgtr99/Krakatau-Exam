@@ -1,9 +1,4 @@
 <?php
-//============================================================+
-// File name	: tmf_import_offline_users_answer.php
-// Author		: Maman Sulaeman
-// Lisensi		: -
-//============================================================+
 
 require_once('../config/tce_config.php');
 

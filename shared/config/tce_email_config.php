@@ -1,28 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_email_config.php
-// Begin       : 2001-10-20
-// Last Update : 2009-11-05
-//
-// Description : Default values for public variables of
-//               C_mailer class
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//============================================================+
 
-/**
- * @file
- * Email configuration file.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2005-02-24
- */
 
 /**
  */

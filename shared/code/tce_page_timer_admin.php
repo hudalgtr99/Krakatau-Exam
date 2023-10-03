@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_page_timer.php
-// Begin       : 2004-04-29
-// Last Update : 2010-10-05
-//
-// Description : Display timer (date-time + countdown).
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display client timer (date-time + countdown).
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2004-04-29
- */
 
 if (!isset($_REQUEST['examtime'])) {
     $examtime = 0; // remaining exam time in seconds

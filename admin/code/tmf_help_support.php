@@ -1,21 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_help_support.php
-// Begin       : 2023-01-06
-// Last Update : 2023-01-06
-//
-// Description : Help and support information
-//
-// Author: Maman Sulaeman
-//
-// (c) Copyright:
-//               Maman Sulaeman
-//               TKJ SMK Gondang
-//               tkj.yayasan-gondang.com
-//               mamansulaeman86@gmail.com
-//
-/**
- */
 
 require_once('../config/tce_config.php');
 

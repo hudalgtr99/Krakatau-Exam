@@ -1,37 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_session.php
-// Begin       : 2001-09-26
-// Last Update : 2020-05-06
-//
-// Description : User-level session storage functions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * User-level session storage functions.<br>
- * This script uses the session_set_save_handler() function to set the user-level session storage functions which are used for storing and retrieving data associated with a session.<br>
- * The session data is stored on a local database.
- * NOTE: This script automatically starts the user's session.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2001-09-26
- */
-
-/**
- */
 
 // PHP session settings
 //ini_set('session.save_handler', 'user');

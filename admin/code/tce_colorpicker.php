@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_colorpicker.php
-// Begin       : 2001-11-05
-// Last Update : 2013-03-17
-//
-// Description : HTML Color Picker Functions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * HTML Color Picker Functions.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2008-10-01
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 $pagelevel = 0;

@@ -1,39 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_questions.php
-// Begin       : 2008-11-26
-// Last Update : 2012-11-07
-//
-// Description : Functions to manipulate questions.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to manipulate questions.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2008-11-26
- */
-
-/**
- * Enable/Disable selected question
- * @author Nicola Asuni
- * @since 2008-11-26
- * @param $question_id (int) question ID
- * @param $enabled (boolean) if true enables question, false otherwise
- */
 function F_question_set_enabled($question_id, $enabled = true)
 {
     global $l, $db;

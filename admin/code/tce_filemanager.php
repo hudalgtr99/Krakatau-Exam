@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_filemanager.php
-// Begin       : 2010-09-20
-// Last Update : 2013-04-12
-//
-// Description : File manager for media files.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * File manager for media files.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2010-09-21
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

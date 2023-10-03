@@ -1,31 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_user_registration.php
-// Begin       : 2008-03-31
-// Last Update : 2020-01-03
-//
-// Description : Support functions for user registration.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Support functions for user registration.
- * @package com.tecnick.tcexam.shared
- * @author Nicola Asuni
- * @since 2003-03-31
- */
 
 /**
  * Send a registration verification email to user.

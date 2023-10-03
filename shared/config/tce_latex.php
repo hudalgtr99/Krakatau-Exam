@@ -1,31 +1,5 @@
 <?php
-//============================================================+
-// File name   : tce_latex.php
-// Begin       : 2007-05-18
-// Last Update : 2009-10-22
-//
-// Description : Configuration file LaTeX Render Class.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
 
-/**
- * @file
- * Configuration file for LaTeX Render Class.
- * @package com.tecnick.tcexam.shared.cfg
- * @author Nicola Asuni
- * @since 2007-05-18
- */
 
 /*
 NOTES

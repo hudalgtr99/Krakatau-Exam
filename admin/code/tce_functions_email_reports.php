@@ -1,32 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_email_reports.php
-// Begin       : 2005-02-24
-// Last Update : 2020-01-03
-//
-// Description : Sends email test reports to users.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2020 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions to send email reports to users.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2005-02-24
- */
-
 /**
  * Sends email test reports to users.
  * @author Nicola Asuni

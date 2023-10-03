@@ -1,14 +1,4 @@
 <?php
-//============================================================+
-// File name   : tmf_view_all_questions.php
-// Begin       : 2021-03-14
-// Last Update : -
-//
-// Description : Display all questions grouped by topic with public theme
-//
-// Author: Maman Sulaeman
-//
-//============================================================+
 
 require_once('../config/tce_config.php');
 

@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : index.php
-// Begin       : 2004-04-29
-// Last Update : 2012-12-27
-//
-// Description : Main page of administrator section.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2012  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Main page of TCExam Administration Area.
- * @package com.tecnick.tcexam.admin
- * @brief TCExam Administration Area
- * @author Nicola Asuni
- * @since 2004-04-20
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 $pagelevel = K_AUTH_INDEX;

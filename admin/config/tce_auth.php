@@ -1,36 +1,12 @@
 <?php
 //============================================================+
-// File name   : tce_auth.php
-// Begin       : 2002-09-02
-// Last Update : 2013-07-05
-//
 // Description : Define access levels for each admin page
 //               Note:
 //                0 = Anonymous user (uregistered user)
 //                1 = registered user
+//                5 = supervisor user
+//                6 = teacher user
 //               10 = System Administrator
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Configuration file: define access levels for each admin page.
- * @package com.tecnick.tcexam.admin.cfg
- * @author Nicola Asuni
- * @since 2002-09-02
- */
-
 // ************************************************************
 // SECURITY WARNING :
 // SET THIS FILE AS READ ONLY AFTER MODIFICATIONS

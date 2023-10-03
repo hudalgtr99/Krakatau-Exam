@@ -1,34 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_user_change_email.php
-// Begin       : 2010-09-17
-// Last Update : 2018-07-06
-//
-// Description : Form to change user email
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2018 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Form to change user email
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2010-09-17
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

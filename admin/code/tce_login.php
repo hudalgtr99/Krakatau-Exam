@@ -1,35 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_login.php
-// Begin       : 2002-03-21
-// Last Update : 2010-09-05
-//
-// Description : Display Login interface and redirect to main
-//               page.
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2010  Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Display Login interface and redirect to main page.
- * @package com.tecnick.tcexam.public
- * @author Nicola Asuni
- * @since 2010-09-05
- */
-
-/**
- */
 
 require_once('../config/tce_config.php');
 

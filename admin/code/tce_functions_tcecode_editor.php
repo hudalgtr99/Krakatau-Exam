@@ -1,33 +1,4 @@
 <?php
-//============================================================+
-// File name   : tce_functions_tcecode_editor.php
-// Begin       : 2002-02-20
-// Last Update : 2013-12-24
-//
-// Description : TCExam Code Editor (editor for special mark-up
-//               code used to add some text formatting)
-//
-// Author: Nicola Asuni
-//
-// (c) Copyright:
-//               Nicola Asuni
-//               Tecnick.com LTD
-//               www.tecnick.com
-//               info@tecnick.com
-//
-// License:
-//    Copyright (C) 2004-2013 Nicola Asuni - Tecnick.com LTD
-//    See LICENSE.TXT file for more information.
-//============================================================+
-
-/**
- * @file
- * Functions for custom mark-up language editor.
- * @package com.tecnick.tcexam.admin
- * @author Nicola Asuni
- * @since 2002-02-20
- */
-
 /**
  * Display TCExam Code EDITOR Tag Buttons
  * @author Nicola Asuni

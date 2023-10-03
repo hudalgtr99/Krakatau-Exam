@@ -1,6 +1,6 @@
 # Krakatau CBT Exam
 
-Aplikasi ujian ini dibuat berdasarkan aplikasi ujian TCExam yang mana telah memberikan access open source untuk user dan developer untuk mengembangkan aplikasi ini secara mandiri. Projek ini merupakan Cloning dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian.
+Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah memberikan access open source untuk user dan developer untuk mengembangkan aplikasi ini secara mandiri. Projek ini merupakan Cloning dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian yang telah dibuat oleh "Maman Sulaeman".
 
 ### Halaman Login
 
@@ -46,9 +46,9 @@ Daftar ujian mencakup judul ujian dan jangka waktu pengerjaan yang memberikan in
 - Isian singkat koreksi Otomatis
 - Uraian panjang dengan kemampuan tambahan upload jawaban dari gambar / foto
 
-
+------------------------------------------------------
 ## Panduan
-Panduan instalasi dan tutorial lainnya silakan bisa dipelajari di https://bit.ly/3f0Oq5D
+Panduan instalasi dan tutorial lainnya silakan bisa dipelajari di https://bit.ly/3f0Oq5D 
 ------------------------------------------------------
 
 FOR ANY USAGE THAT REQUIRES COMMERCIAL LICENSING TERMS,

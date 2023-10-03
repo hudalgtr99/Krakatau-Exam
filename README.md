@@ -25,10 +25,19 @@ Daftar user terdiri dari:
 - Pengawas: Bertanggung jawab memantau dan memberikan arahan.
 - Pelamar: Pengguna dengan tujuan tertentu seperti aplikasi pekerjaan atau mengikuti tes.
 
+### Bank Soal
 
-Daftar Ujian
+<img src="https://i.postimg.cc/Qtbnh66z/Screenshot-2023-10-03-144633.png" width="800px"/>
 
-<img src="https://1.bp.blogspot.com/-xS6uPb0zYQI/YGwbjk6RaKI/AAAAAAAATfo/oNzqY_NPMjUlr3uAvdc0xQPbiv9dTRxcACLcBGAsYHQ/s1857/Screenshot_2021-04-06-15-26-38-765_com.android.chrome.png" width="200px"/>
+Bank soal tes lamaran kerja adalah kumpulan pertanyaan dan tugas yang digunakan untuk mengukur kemampuan dan kualifikasi pelamar dalam proses rekrutmen. Ini membantu perusahaan menilai kandidat yang sesuai dengan pekerjaan yang ditawarkan.
+
+
+### Daftar Ujian
+
+<img src="https://i.postimg.cc/q7gqdRkV/Screenshot-2023-10-03-145835.png" width="800px"/>
+
+Daftar ujian mencakup judul ujian dan jangka waktu pengerjaan yang memberikan informasi mengenai waktu dimulai dan berakhirnya ujian. Ini membantu peserta ujian dalam perencanaan waktu pengerjaan.
+
 
 ## Mendukung beberapa tipe soal seperti
 - Pilihan ganda jawaban tunggal
@@ -37,43 +46,9 @@ Daftar Ujian
 - Isian singkat koreksi Otomatis
 - Uraian panjang dengan kemampuan tambahan upload jawaban dari gambar / foto
 
-## Fitur improvement dari TCExam
-- Input Soal lebih mudah, melalui Template MS Excel
-- Disediakan layanan online utk input soal melalui Template MS Word.
-- Fitur Mode Darurat (Lembar Halaman Offline), yang memungkinkan proses ujian tanpa kuota utama dan tanpa server.
-- Editing soal menggunakan antar muka HTML Editor, support konversi otomatis equation dari MS Word
-- Generate Test Data agar loading soal lebih cepat dengan user lebih banyak dalam satu waktu
-- Mengijinkan editing soal/jawaban/setting ujian meskipun Test sedang berjalan
-- Laporan rekap kehadiran Test
-- Peserta ujian dapat meng-upload jawaban dalam bentuk gambar pada jenis soal Uraian
-- Export hasil Test ke format EXCEL
-- Halaman General Setting untuk mengatur beberapa bagian CBT dengan lebih mudah
-- Opsi penjodohan bisa berupa angka maupun Teks, labelnya bisa berupa angka, teks, gambar atau media lain seperti video
-- Jumlah pengulangan ujian dapat diset sesuai keinginan, tidak lagi unlimited, namun opsi unlimited masih tersedia.
-- Theme yang lebih modern dan fresh :)
-- Export dan Import user melalui format file Excel
-- Terdapat fitur pengumuman Surat Keterangan Lulus Online, namun dengan teknik yang masih sederhana.
-- Lebih gesit dan ringan, sudah dipakai pada shared hosting mampu 300an user serentak.
 
 ## Panduan
 Panduan instalasi dan tutorial lainnya silakan bisa dipelajari di https://bit.ly/3f0Oq5D
-
-## Kebutuhan Sistem
-1. Web server (Apache/nginx/OLS, dan lainnya)
-2. PHP 5.6 s.d 8.0.x
-3. Database MySQL/MariaDB/Postgre/Oracle
-
-## Contact
-Apabila berminat ingin bergabung dalam tim pengembangan, silakan japri Author melalui saluran di bawah ini
-1. Blog: [mamans86.blogspot.com](https://mamans86.blogspot.com)
-2. Telegram: [@mamans86](https://t.me/mamans86)
-3. Email: mamansulaeman86@gmail.com
-
-## Community / Telegram Group
-1. [TCExam Mobile Friendly (Indonesian Language)](https://t.me/tmfcbtakm)
-
-# TCExam - README
-
 ------------------------------------------------------
 
 FOR ANY USAGE THAT REQUIRES COMMERCIAL LICENSING TERMS,

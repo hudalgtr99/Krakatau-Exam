@@ -84,7 +84,27 @@ echo '</div>';
 // echo 
 
 
-echo '<div class="card bg-info text-white"><div class="card-body font-weight-bold">TCEXAM IS SUBJECT TO THE <a class="text-dark" href="http://www.fsf.org/licensing/licenses/agpl-3.0.html" title="External link to GNU Affero General Public License">GNU-AGPL v.3 LICENSE</a> LICENSE WITH THE FOLLOWING ADDITIONAL TERMS:<ul><li>YOU CAN\'T ALTER, REMOVE, MOVE OR HIDE THE ORIGINAL TCEXAM LOGO, COPYRIGHTS STATEMENTS, LINKS TO <a class="text-dark" href="http://www.tecnick.com" title="External link to Tecnick.com">TECNICK.COM</a> AND <a class="text-dark" href="http://www.tcexam.org" title="External link to TCExam">TCEXAM</a> WEBSITES, OTHER PROPRIETARY NOTICES, LEGENDS, SYMBOLS OR LABELS IN THE SOFTWARE.</li><li>TCEXAM NAME AND LOGO ARE TRADEMARKS OF <a class="text-dark" href="http://www.tecnick.com" title="External link to Tecnick.com">TECNICK.COM LTD</a> AND SHALL BE USED IN ACCORDANCE WITH ACCEPTED TRADEMARK PRACTICE, INCLUDING IDENTIFICATION OF TRADEMARK OWNER\'S NAME.</li></ul>FOR ANY USAGE THAT REQUIRES DIFFERENT (COMMERCIAL) LICENSING TERMS, PLEASE CONTACT <a class="text-dark" href="mailto:info@tecnick.com" title="mail to tecnick.com">INFO@TECNICK.COM</a> TO PURCHASE A COMMERCIAL LICENSE.</div></div>'.K_NEWLINE;
+echo '<div class="card bg-info text-white">
+    <div class="card-body font-weight-bold">
+        Krakatau CBT Exam
+        <ul>
+            <li>
+                This examination application was created based on the TCExam examination application, which has provided open-source access for users and developers to independently develop this application. This project is a clone of TMF (TCExam Mobile Friendly) with modifications to the loading of questions and sending answers via AJAX from the participant\'s side.
+            </li>
+            <li>
+                To find the latest updates, you can check at 
+                <a class="text-dark" href="https://github.com/hudalgtr99/Krakatau-Exam" title="External link to GNU Affero General Public License">
+                    https://github.com/hudalgtr99/Krakatau-Exam.
+                </a>
+            </li>
+        </ul>
+        FOR ANY USAGE THAT REQUIRES DIFFERENT (COMMERCIAL) LICENSING TERMS, PLEASE CONTACT
+        <a class="text-dark" href="mailto:info@tecnick.com" title="mail to tecnick.com">
+            INFO@TECNICK.COM
+        </a>
+        TO PURCHASE A COMMERCIAL LICENSE.
+    </div>
+</div>';
 
 // echo K_REMAINING_TESTS;
 // Display test limits (if any)

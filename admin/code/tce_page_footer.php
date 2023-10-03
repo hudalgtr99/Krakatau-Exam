@@ -28,7 +28,8 @@ echo '>TCExam</a> ver. '.html_entity_decode(K_TCEXAM_VERSION).' - Copyright &cop
 if(isset($_SESSION['session_user_level']) and $_SESSION['session_user_level']<1 and strlen(LOGIN_BG_IMAGE)>0){
 	echo ' style="color:var(--col-11)!important;border:1px solid var(--col-15t);border-radius:50em;padding:0.05em 0.35em"';
 }
-echo '>Tecnick.com LTD</a> - <a href="https://github.com/xamzone/tmfajax" target="blank" class="tmfpatch">tmfpatch v'.file_get_contents('../../TMFPATCHVERSION').'</a> by <a href="https://xamzonelinux.blogspot.com" target="blank" class="tmfpatch">Xamzone</a> - this site is authored by <a class="tmfpatch" href="mailto:'.K_SITE_REPLY.'">'.K_SITE_AUTHOR.'</a></span>';
+echo '>Tecnick.com LTD</a> - <a href="https://github.com/xamzone/tmfajax" target="blank" class="tmfpatch">tmfpatch v'.file_get_contents('../../TMFPATCHVERSION').'</a> by <a href="https://xamzonelinux.blogspot.com" target="blank" class="tmfpatch">Xamzone</a></a></span>';
+echo ' - Krakatau CBT</a> - <a href="https://github.com/hudalgtr99/Krakatau-Exam" target="blank" class="tmfpatch">Krakatau CBT Exam v'.file_get_contents('../../KRAKATAUCBTPATCHVERSION').'</a> - this site is authored by - <a class="tmfpatch" href="mailto:'.K_SITE_REPLY.'">'.K_SITE_AUTHOR.'</a></span>';
 echo '</div>'.K_NEWLINE;
 echo '</div>'.K_NEWLINE;
 echo '</div>'.K_NEWLINE;

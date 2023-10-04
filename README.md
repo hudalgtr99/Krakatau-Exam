@@ -8,8 +8,9 @@ This site is authored by:
 - Muhammad Rizky Rifaldi
 
 <p align="center">
-  <img src="https://i.postimg.cc/Lh605RT7/Unila.jpg" alt="Universitas Lampung" style="display: block; margin: 0 auto;">
+  <img src="https://i.postimg.cc/2y6CRpWk/Logo-Universitas-Lampung-removebg-preview.png" alt="Universitas Lampung" style="display: block; margin: 0 auto;">
 </p>
+
 ------------------------------------------------------
 
 

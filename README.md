@@ -2,6 +2,7 @@
 
 Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah memberikan access open source untuk user dan developer untuk mengembangkan aplikasi ini secara mandiri. Projek ini merupakan Cloning dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian yang telah dibuat oleh "Maman Sulaeman".
 
+------------------------------------------------------
 This site is authored by: 
 - Miftahul Huda Guntara
 - Muhammad Rizky Rifaldi
@@ -9,6 +10,7 @@ This site is authored by:
 <p align="center">
   <img src="https://i.postimg.cc/Lh605RT7/Unila.jpg" alt="Universitas Lampung" style="display: block; margin: 0 auto;">
 </p>
+------------------------------------------------------
 
 
 ### Halaman Login

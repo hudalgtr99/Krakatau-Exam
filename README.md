@@ -6,7 +6,10 @@ This site is authored by:
 - Miftahul Huda Guntara
 - Muhammad Rizky Rifaldi
 
-<a href='https://postimg.cc/Lh605RT7' target='_blank'><img src='https://i.postimg.cc/Lh605RT7/Unila.jpg' border='0' alt='Unila'/></a>
+<p align="center">
+  <img src="https://i.postimg.cc/Lh605RT7/Unila.jpg" alt="Universitas Lampung" style="display: block; margin: 0 auto;">
+</p>
+
 
 ### Halaman Login
 

@@ -9,6 +9,11 @@ require_once('../../shared/code/tce_authorization.php');
 require_once('../../shared/code/tce_functions_form.php');
 require_once('../code/tce_page_header.php');
 
+echo '<div style="background-color: red; padding: 16px 16px 16px 16px; width: 200px; height: 375px; margin: 0; float: left; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">';
+echo '<h1 style="margin: 0;">Peringatan</h1>';
+echo '<p style="margin: 0;">Perubahan Email akan membuat akun tidak dapat digunakan dan harus dikonfirmasi oleh admin (Reset oleh Pengawas/Admin). Khusus untuk akun admin merubah email harus melalui page admin!</p>';
+echo '</div>';
+
 $user_id = intval($_SESSION['session_user_id']);
 
 // comma separated list of required fields
@@ -89,6 +94,7 @@ echo '</div>'.K_NEWLINE;
 
 echo '<div class="pagehelp">'.$l['hp_user_change_email'].'</div>'.K_NEWLINE;
 echo '</div>'.K_NEWLINE;
+
 
 require_once(dirname(__FILE__).'/tce_page_footer.php');
 

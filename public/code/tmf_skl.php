@@ -216,136 +216,136 @@ $quotes = array(
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 
-// DATA SKL USER ADMIN
-// ini hanyalah data dummy untuk sekedar menguji coba SKL
-// data ini bisa juga diisi melalui template Excel dengan mencantumkan username admin pada kolom username
-$admin['prodi'] 		= 'Teknik Komputer dan Informatika'; // prodi diisi bila SMK. selain SMK diisi angka 0
-$admin['kompetensi']	= 'Teknik Komputer dan Jaringan'; // kompetensi diisi bila SMK. selain SMK diisi angka 0
-$admin['peminatan']		= 0; // peminatan diisi bila SMA. selain SMA diisi angka 0
-$admin['j_kekhususan']	= 0; // jenis kekhususan diisi bila SMALB, SMPLB, SDLB. selain itu diisi dengan angka 0
-$admin['ortu']			= 'Daryono'; // diisi nama orang tua
-$admin['nis'] 			= '18.0001'; // diisi nis
-$admin['nisn'] 			= '1111111111'; // diisi nisn
-$admin['nil1']			= 100; 
-$admin['nil2']			= 100;
-$admin['nil3']			= 100;
-$admin['nil4']			= 100;
-$admin['nil5']			= 100;
-$admin['nil6']			= 100;
-$admin['nil7']			= 100;
-$admin['nil8']			= 100;
-$admin['nil9']			= 100;
-$admin['nil10']			= 100;
-$admin['nil11']			= 100;
-$admin['nil12']			= 100;
-$admin['nil13']			= 100;
-$admin['nil14']			= 100;
-$admin['nil15']			= 100;
-$admin['nil16']			= 100;
-$admin['nil17']			= 100;
-$admin['nil18']			= 0;
-$admin['nil19']			= 0;
-$admin['nil20']			= 0;
-$admin['nil21']			= 0;
-$admin['nil22']			= 0;
-$admin['nil23']			= 0;
-$admin['nil24']			= 0;
-$admin['nil25']			= 0;
-$admin['nil26']			= 0;
-$admin['nil27']			= 0;
-$admin['nil28']			= 0;
-$admin['nil29']			= 0;
-$admin['nil30']			= 0;
+// // DATA SKL USER ADMIN
+// // ini hanyalah data dummy untuk sekedar menguji coba SKL
+// // data ini bisa juga diisi melalui template Excel dengan mencantumkan username admin pada kolom username
+// $admin['prodi'] 		= 'Teknik Komputer dan Informatika'; // prodi diisi bila SMK. selain SMK diisi angka 0
+// $admin['kompetensi']	= 'Teknik Komputer dan Jaringan'; // kompetensi diisi bila SMK. selain SMK diisi angka 0
+// $admin['peminatan']		= 0; // peminatan diisi bila SMA. selain SMA diisi angka 0
+// $admin['j_kekhususan']	= 0; // jenis kekhususan diisi bila SMALB, SMPLB, SDLB. selain itu diisi dengan angka 0
+// $admin['ortu']			= 'Daryono'; // diisi nama orang tua
+// $admin['nis'] 			= '18.0001'; // diisi nis
+// $admin['nisn'] 			= '1111111111'; // diisi nisn
+// $admin['nil1']			= 100; 
+// $admin['nil2']			= 100;
+// $admin['nil3']			= 100;
+// $admin['nil4']			= 100;
+// $admin['nil5']			= 100;
+// $admin['nil6']			= 100;
+// $admin['nil7']			= 100;
+// $admin['nil8']			= 100;
+// $admin['nil9']			= 100;
+// $admin['nil10']			= 100;
+// $admin['nil11']			= 100;
+// $admin['nil12']			= 100;
+// $admin['nil13']			= 100;
+// $admin['nil14']			= 100;
+// $admin['nil15']			= 100;
+// $admin['nil16']			= 100;
+// $admin['nil17']			= 100;
+// $admin['nil18']			= 0;
+// $admin['nil19']			= 0;
+// $admin['nil20']			= 0;
+// $admin['nil21']			= 0;
+// $admin['nil22']			= 0;
+// $admin['nil23']			= 0;
+// $admin['nil24']			= 0;
+// $admin['nil25']			= 0;
+// $admin['nil26']			= 0;
+// $admin['nil27']			= 0;
+// $admin['nil28']			= 0;
+// $admin['nil29']			= 0;
+// $admin['nil30']			= 0;
 
-// semua kode pada baris di bawah ini boleh dimodifikasi namun Anda harus memahami segala resiko yang ditimbulkan apabila terjadi kesalahan / error. 
-if($tampilkan_tabel_nilai){
-	$tabel_nilai_class='class=""';
-	$tabel_nilai_classpub='';
-	$dot='';
-}else{
-	$tabel_nilai_class='class="hidden"';
-	$tabel_nilai_classpub='hidden';
-	$dot='.';
-}
-$tglskl=$data_date_skl;
-$tgl_skl=strtotime($tglskl);
-if(time() < $tgl_skl){
-    //echo date("H:i:s");
-    echo '<!DOCTYPE html><html lang="en"><head>';
-	echo '<link rel="stylesheet" href="'.K_SITE_STYLE.'">';
-	echo '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">';
-echo "<style>
-body {
-	text-align:center; 
-	background-color: var(--col-1);
-	padding:1rem;
-}
-.quote {font-style: italic;
-    color: var(--col-7);
-    background: rgba(0,0,0,0.05);
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-	margin:10px 0 50px 0}
-h3 #demo span{margin:10px 5px}
-h3 #demo span:last-child{background:var(--col-7)}
+// // semua kode pada baris di bawah ini boleh dimodifikasi namun Anda harus memahami segala resiko yang ditimbulkan apabila terjadi kesalahan / error. 
+// if($tampilkan_tabel_nilai){
+// 	$tabel_nilai_class='class=""';
+// 	$tabel_nilai_classpub='';
+// 	$dot='';
+// }else{
+// 	$tabel_nilai_class='class="hidden"';
+// 	$tabel_nilai_classpub='hidden';
+// 	$dot='.';
+// }
+// $tglskl=$data_date_skl;
+// $tgl_skl=strtotime($tglskl);
+// if(time() < $tgl_skl){
+//     //echo date("H:i:s");
+//     echo '<!DOCTYPE html><html lang="en"><head>';
+// 	echo '<link rel="stylesheet" href="'.K_SITE_STYLE.'">';
+// 	echo '<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">';
+// echo "<style>
+// body {
+// 	text-align:center; 
+// 	background-color: var(--col-1);
+// 	padding:1rem;
+// }
+// .quote {font-style: italic;
+//     color: var(--col-7);
+//     background: rgba(0,0,0,0.05);
+//     display: inline-block;
+//     padding: 5px 10px;
+//     border-radius: 5px;
+// 	margin:10px 0 50px 0}
+// h3 #demo span{margin:10px 5px}
+// h3 #demo span:last-child{background:var(--col-7)}
 
-</style>
-</head>
-<body>
-<span style='color:var(--col-12);font-size:100px;display:inline-block;margin:50px 0' class='icon-warning'></span><br/><h1 style='padding:0;color:var(--col-7)'>Akses ke halaman pengambilan SKL akan dibuka setelah</h1><h3 style='line-height:1.5;color:#ffeb3b;padding:0;margin:0'><span id='demo'>";
+// </style>
+// </head>
+// <body>
+// <span style='color:var(--col-12);font-size:100px;display:inline-block;margin:50px 0' class='icon-warning'></span><br/><h1 style='padding:0;color:var(--col-7)'>Akses ke halaman pengambilan SKL akan dibuka setelah</h1><h3 style='line-height:1.5;color:#ffeb3b;padding:0;margin:0'><span id='demo'>";
 
-    echo '</span></h3><p style="color:#B0BEC5"><span class="quote">'.$quotes[array_rand($quotes)].'<br/>&mdash; &#9675; &mdash;</span></p><p style="color:var(--col-4);padding-bottom:20px">Presented by<br/><b>'.K_SITE_AUTHOR.'</b><br/>Copyright &copy; '.date('Y').'</p>';
-    ?>
+//     echo '</span></h3><p style="color:#B0BEC5"><span class="quote">'.$quotes[array_rand($quotes)].'<br/>&mdash; &#9675; &mdash;</span></p><p style="color:var(--col-4);padding-bottom:20px">Presented by<br/><b>'.K_SITE_AUTHOR.'</b><br/>Copyright &copy; '.date('Y').'</p>';
+//     ?>
 
-    <script>
-// Set the date we're counting down to
-var countDownDate = new Date("<?php echo date("F", strtotime($data_date_skl)); ?> <?php echo date("d", strtotime($data_date_skl)); ?>, <?php echo date("Y", strtotime($data_date_skl)); ?> <?php echo date("H:i:s", strtotime($data_date_skl)); ?>").getTime();
+<script>
+// // Set the date we're counting down to
+// var countDownDate = new Date("<?php echo date("F", strtotime($data_date_skl)); ?> <?php echo date("d", strtotime($data_date_skl)); ?>, <?php echo date("Y", strtotime($data_date_skl)); ?> <?php echo date("H:i:s", strtotime($data_date_skl)); ?>").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+// // Update the count down every 1 second
+// var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+//   // Get today's date and time
+//   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+//   // Find the distance between now and the count down date
+//   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   // Time calculations for days, hours, minutes and seconds
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  if(days == 0){
-	var hidedays = "style='display:none'";
-	if(hours == 0){
-		var hidehours = "style='display:none'";
-		if(minutes == 0){
-			var hidemin = "style='display:none'";
-		}
-	}
-  }
+//   if(days == 0){
+// 	var hidedays = "style='display:none'";
+// 	if(hours == 0){
+// 		var hidehours = "style='display:none'";
+// 		if(minutes == 0){
+// 			var hidemin = "style='display:none'";
+// 		}
+// 	}
+//   }
 
 
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = "<span class='xmlbutton' "+hidedays+">"+ days + " hari</span><span class='xmlbutton' "+hidehours+">" + hours + " jam</span><span class='xmlbutton' "+hidemin+">"
-  + minutes + " menit</span><span class='xmlbutton'>" + seconds + " detik</span>";
+//   // Display the result in the element with id="demo"
+//   document.getElementById("demo").innerHTML = "<span class='xmlbutton' "+hidedays+">"+ days + " hari</span><span class='xmlbutton' "+hidehours+">" + hours + " jam</span><span class='xmlbutton' "+hidemin+">"
+//   + minutes + " menit</span><span class='xmlbutton'>" + seconds + " detik</span>";
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "<span class='xmlbutton'>tunggu sebentar</span>";
-    location.reload();
-  }
-}, 1000);
-</script>
+//   // If the count down is finished, write some text
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo").innerHTML = "<span class='xmlbutton'>tunggu sebentar</span>";
+//     location.reload();
+//   }
+// }, 1000);
+// </script>
 
-    <?php
-    echo "</body>";
-    die();
-}
+<?php
+//     echo "</body>";
+//     die();
+// }
 
 require_once('../config/tce_config.php');
 if(isset($_REQUEST['id']) and $_REQUEST['id']!=null){
@@ -455,180 +455,180 @@ if ($r = F_db_query($sqlusrdata, $db)) {
 
 // var_dump($userskldata);
 
-if(($siap_publikasi==false)and($_SESSION['session_user_level']<10)){
-	echo '<div class="container">'.K_NEWLINE;
-	echo '<div class="subcont" id="bismillahbox">SKL belum dipublikasikan. <a href="index.php" class="xmlbutton">Klik disini</a> untuk kembali ke beranda.</div>'.K_NEWLINE;
-	echo '</div>'.K_NEWLINE;
-	die();
-}
+// if(($siap_publikasi==false)and($_SESSION['session_user_level']<10)){
+// 	echo '<div class="container">'.K_NEWLINE;
+// 	echo '<div class="subcont" id="bismillahbox">SKL belum dipublikasikan. <a href="index.php" class="xmlbutton">Klik disini</a> untuk kembali ke beranda.</div>'.K_NEWLINE;
+// 	echo '</div>'.K_NEWLINE;
+// 	die();
+// }
 
-echo '<div class="container" style="line-height:'.$ukuran_spasi_baris.'">'.K_NEWLINE;
-echo '<div class="x-scrollable" style="overflow-x:auto; padding-bottom:10px">'.K_NEWLINE;
-echo '<div class="print_skl">
-<div class="subcont" id="bismillahbox">'.K_NEWLINE;
+// echo '<div class="container" style="line-height:'.$ukuran_spasi_baris.'">'.K_NEWLINE;
+// echo '<div class="x-scrollable" style="overflow-x:auto; padding-bottom:10px">'.K_NEWLINE;
+// echo '<div class="print_skl">
+// <div class="subcont" id="bismillahbox">'.K_NEWLINE;
 
-// echo $_SESSION['session_user_id'];
-if((strlen($userskldata['user_ssn'])<1) and ($_SESSION['session_user_id']==2)){
-	// $sqlu = 'UPDATE '.K_TABLE_USERS.' SET user_ssn="Teknik Komputer dan Informatika,Teknik Komputer dan Jaringan,Daryono,18.0001,1111111111,0,0,80.50,80.51,80.52,80.53,80.54,80.55,80.56,80.57,80.58,80.59,80.60,80.61,80.62,80.63,81.64,80.65,75,0,0,0,0,0,0,0,0,0,0,0,0,0" WHERE user_id=2';
+// // echo $_SESSION['session_user_id'];
+// if((strlen($userskldata['user_ssn'])<1) and ($_SESSION['session_user_id']==2)){
+// 	// $sqlu = 'UPDATE '.K_TABLE_USERS.' SET user_ssn="Teknik Komputer dan Informatika,Teknik Komputer dan Jaringan,Daryono,18.0001,1111111111,0,0,80.50,80.51,80.52,80.53,80.54,80.55,80.56,80.57,80.58,80.59,80.60,80.61,80.62,80.63,81.64,80.65,75,0,0,0,0,0,0,0,0,0,0,0,0,0" WHERE user_id=2';
 	
-	// F_db_query($sqlu, $db);
+// 	// F_db_query($sqlu, $db);
 	
-	$userskldata['user_ssn']=$admin['prodi'].','.$admin['kompetensi'].','.$admin['ortu'].','.$admin['nis'].','.$admin['nisn'].','.$admin['peminatan'].','.$admin['j_kekhususan'].','.$admin['nil1'].','.$admin['nil2'].','.$admin['nil3'].','.$admin['nil4'].','.$admin['nil5'].','.$admin['nil6'].','.$admin['nil7'].','.$admin['nil8'].','.$admin['nil9'].','.$admin['nil10'].','.$admin['nil11'].','.$admin['nil12'].','.$admin['nil13'].','.$admin['nil14'].','.$admin['nil15'].','.$admin['nil16'].','.$admin['nil17'].','.$admin['nil18'].','.$admin['nil19'].','.$admin['nil20'].','.$admin['nil21'].','.$admin['nil22'].','.$admin['nil23'].','.$admin['nil24'].','.$admin['nil25'].','.$admin['nil26'].','.$admin['nil27'].','.$admin['nil28'].','.$admin['nil29'].','.$admin['nil30'];
-}
+// 	$userskldata['user_ssn']=$admin['prodi'].','.$admin['kompetensi'].','.$admin['ortu'].','.$admin['nis'].','.$admin['nisn'].','.$admin['peminatan'].','.$admin['j_kekhususan'].','.$admin['nil1'].','.$admin['nil2'].','.$admin['nil3'].','.$admin['nil4'].','.$admin['nil5'].','.$admin['nil6'].','.$admin['nil7'].','.$admin['nil8'].','.$admin['nil9'].','.$admin['nil10'].','.$admin['nil11'].','.$admin['nil12'].','.$admin['nil13'].','.$admin['nil14'].','.$admin['nil15'].','.$admin['nil16'].','.$admin['nil17'].','.$admin['nil18'].','.$admin['nil19'].','.$admin['nil20'].','.$admin['nil21'].','.$admin['nil22'].','.$admin['nil23'].','.$admin['nil24'].','.$admin['nil25'].','.$admin['nil26'].','.$admin['nil27'].','.$admin['nil28'].','.$admin['nil29'].','.$admin['nil30'];
+// }
 
-if(isset($_REQUEST['id']) and $_REQUEST['id']!=null){
-	echo '<style>
-		table.testlist tr td, table.userselect tr td{height:auto}
-		table.testlist tr td{width:auto;vertical-align:top}
-		tbody tr td:nth-child(2){text-align:left}
-		div.header{display:none !important}
-	</style>'.K_NEWLINE;
-	echo '<div style="line-height:1.5">'.K_NEWLINE;
-	$id=base64_decode($_REQUEST['id']);
+// if(isset($_REQUEST['id']) and $_REQUEST['id']!=null){
+// 	echo '<style>
+// 		table.testlist tr td, table.userselect tr td{height:auto}
+// 		table.testlist tr td{width:auto;vertical-align:top}
+// 		tbody tr td:nth-child(2){text-align:left}
+// 		div.header{display:none !important}
+// 	</style>'.K_NEWLINE;
+// 	echo '<div style="line-height:1.5">'.K_NEWLINE;
+// 	$id=base64_decode($_REQUEST['id']);
 
-	$str_arr = preg_split ("/\,/", $id);
-	$teks1 = $str_arr[0];
-	$user_id = $str_arr[1];
+// 	$str_arr = preg_split ("/\,/", $id);
+// 	$teks1 = $str_arr[0];
+// 	$user_id = $str_arr[1];
 
-	$sqlsu = 'SELECT * FROM '.K_TABLE_USERS.' WHERE user_id='.$user_id.' LIMIT 1';
-	if($r = F_db_query($sqlsu, $db)){
-		if ($m = F_db_fetch_array($r)){
-			echo '<div style="background-image:url(\'../../images/'.K_INSTITUTION_LOGO.'\'); background-repeat: no-repeat; background-position:right top; opacity:0.2; width:202px; height:224px; display: inline-block; position: absolute; background-size: 202px; right: 60px"></div>'.K_NEWLINE;
-			echo '<h3 style="padding: 0 0 0.5em 0;border-bottom: 1px solid #336799;color: var(--col-2)"><span class="icon-star"></span> SKL VALID</h3>'.K_NEWLINE;
-			echo '<p>Surat Keterangan Lulus ini didapatkan secara sah dari laman resmi pengambilan SKL '.K_INSTITUTION_NAME.' dengan rincian data sebagai berikut :</p>'.K_NEWLINE;
-			// echo "<span class='splbl_skl'>Nomor Peserta </span>: <span class='spvalue blue'>".$m['user_name']."</span><br/><br/>";
-			echo "<div class='d-flex jc-sb fwrap'>";
-			echo "<div>";
-			echo "<span class='splbl_skl'>Nama Lengkap </span>: <span class='spvalue fuchsia'>".$m['user_firstname']."</span><br/><br/>";
+// 	$sqlsu = 'SELECT * FROM '.K_TABLE_USERS.' WHERE user_id='.$user_id.' LIMIT 1';
+// 	if($r = F_db_query($sqlsu, $db)){
+// 		if ($m = F_db_fetch_array($r)){
+// 			echo '<div style="background-image:url(\'../../images/'.K_INSTITUTION_LOGO.'\'); background-repeat: no-repeat; background-position:right top; opacity:0.2; width:202px; height:224px; display: inline-block; position: absolute; background-size: 202px; right: 60px"></div>'.K_NEWLINE;
+// 			echo '<h3 style="padding: 0 0 0.5em 0;border-bottom: 1px solid #336799;color: var(--col-2)"><span class="icon-star"></span> SKL VALID</h3>'.K_NEWLINE;
+// 			echo '<p>Surat Keterangan Lulus ini didapatkan secara sah dari laman resmi pengambilan SKL '.K_INSTITUTION_NAME.' dengan rincian data sebagai berikut :</p>'.K_NEWLINE;
+// 			// echo "<span class='splbl_skl'>Nomor Peserta </span>: <span class='spvalue blue'>".$m['user_name']."</span><br/><br/>";
+// 			echo "<div class='d-flex jc-sb fwrap'>";
+// 			echo "<div>";
+// 			echo "<span class='splbl_skl'>Nama Lengkap </span>: <span class='spvalue fuchsia'>".$m['user_firstname']."</span><br/><br/>";
 
-			$user_birthdate = date("j F Y", strtotime($m['user_birthdate']));
-			$user_birthdate = str_replace('January', 'Januari', $user_birthdate);
-			$user_birthdate = str_replace('February', 'Februari', $user_birthdate);
-			$user_birthdate = str_replace('March', 'Maret', $user_birthdate);
-			$user_birthdate = str_replace('May', 'Mei', $user_birthdate);
-			$user_birthdate = str_replace('June', 'Juni', $user_birthdate);
-			$user_birthdate = str_replace('July', 'Juli', $user_birthdate);
-			$user_birthdate = str_replace('August', 'Agustus', $user_birthdate);
-			$user_birthdate = str_replace('October', 'Oktober', $user_birthdate);
-			$user_birthdate = str_replace('December', 'Desember', $user_birthdate);
+// 			$user_birthdate = date("j F Y", strtotime($m['user_birthdate']));
+// 			$user_birthdate = str_replace('January', 'Januari', $user_birthdate);
+// 			$user_birthdate = str_replace('February', 'Februari', $user_birthdate);
+// 			$user_birthdate = str_replace('March', 'Maret', $user_birthdate);
+// 			$user_birthdate = str_replace('May', 'Mei', $user_birthdate);
+// 			$user_birthdate = str_replace('June', 'Juni', $user_birthdate);
+// 			$user_birthdate = str_replace('July', 'Juli', $user_birthdate);
+// 			$user_birthdate = str_replace('August', 'Agustus', $user_birthdate);
+// 			$user_birthdate = str_replace('October', 'Oktober', $user_birthdate);
+// 			$user_birthdate = str_replace('December', 'Desember', $user_birthdate);
 
-			echo "<span class='splbl_skl'>Tempat, Tanggal Lahir </span>: <span class='spvalue green'>".$m['user_birthplace'].", ".$user_birthdate."</span><br/><br/>";
+// 			echo "<span class='splbl_skl'>Tempat, Tanggal Lahir </span>: <span class='spvalue green'>".$m['user_birthplace'].", ".$user_birthdate."</span><br/><br/>";
 
-			$c_array = urldecode($m['user_ssn']);
-			// print_r($c_arraysss);
-			// ssssssssss
-			// $c_array = str_replace('%2C', ',', $m['user_lastname']);
-			// $c_array = str_replace('+', ' ', $c_array);
-			$str_arr = preg_split ("/\,/", $c_array);
+// 			$c_array = urldecode($m['user_ssn']);
+// 			// print_r($c_arraysss);
+// 			// ssssssssss
+// 			// $c_array = str_replace('%2C', ',', $m['user_lastname']);
+// 			// $c_array = str_replace('+', ' ', $c_array);
+// 			$str_arr = preg_split ("/\,/", $c_array);
 
-			$nis = $str_arr[3];
-			$nisn = $str_arr[4];
+// 			$nis = $str_arr[3];
+// 			$nisn = $str_arr[4];
 
-			echo "<span class='splbl_skl'>NIS / NISN </span>: <span class='spvalue purple'>".$nis." / ".$nisn."</span><br/><br/>";
-			if((strlen($str_arr[0])>1) or ($str_arr[0]!=0)){
-				echo "<span class='splbl_skl'>Program Studi Keahlian </span>: <span class='spvalue orange'>".$str_arr[0]."</span><br/><br/>";
-			}
-			if((strlen($str_arr[1])>1) or ($str_arr[1]!=0)){
-				echo "<span class='splbl_skl'>Kompetensi Keahlian </span>: <span class='spvalue red'>".$str_arr[1]."</span><br/><br/>";
-			}
-			if((strlen($str_arr[5])>1) or ($str_arr[5]!=0)){
-				echo "<span class='splbl_skl'>Peminatan </span>: <span class='spvalue red'>".$str_arr[5]."</span><br/><br/>";
-			}
-			if((strlen($str_arr[6])>1) or ($str_arr[6]!=0)){
-				echo "<span class='splbl_skl'>Jenis Kekhususan </span>: <span class='spvalue red'>".$str_arr[6]."</span><br/>";
-			}
-			//$ortu = str_replace("%27", " '", $str_arr[1]);
-			echo "</div>".K_NEWLINE;
-			// echo "</div>".K_NEWLINE;
-			echo "<div style='align-self:start'>";
+// 			echo "<span class='splbl_skl'>NIS / NISN </span>: <span class='spvalue purple'>".$nis." / ".$nisn."</span><br/><br/>";
+// 			if((strlen($str_arr[0])>1) or ($str_arr[0]!=0)){
+// 				echo "<span class='splbl_skl'>Program Studi Keahlian </span>: <span class='spvalue orange'>".$str_arr[0]."</span><br/><br/>";
+// 			}
+// 			if((strlen($str_arr[1])>1) or ($str_arr[1]!=0)){
+// 				echo "<span class='splbl_skl'>Kompetensi Keahlian </span>: <span class='spvalue red'>".$str_arr[1]."</span><br/><br/>";
+// 			}
+// 			if((strlen($str_arr[5])>1) or ($str_arr[5]!=0)){
+// 				echo "<span class='splbl_skl'>Peminatan </span>: <span class='spvalue red'>".$str_arr[5]."</span><br/><br/>";
+// 			}
+// 			if((strlen($str_arr[6])>1) or ($str_arr[6]!=0)){
+// 				echo "<span class='splbl_skl'>Jenis Kekhususan </span>: <span class='spvalue red'>".$str_arr[6]."</span><br/>";
+// 			}
+// 			//$ortu = str_replace("%27", " '", $str_arr[1]);
+// 			echo "</div>".K_NEWLINE;
+// 			// echo "</div>".K_NEWLINE;
+// 			echo "<div style='align-self:start'>";
 			
-			if(@file_get_contents(K_PATH_CACHE.'photo/'.$m['user_name'].'.jpg')){
-				$userphoto = $m['user_name'];
-			}else{
-				$userphoto = 'default';
-			}
+// 			if(@file_get_contents(K_PATH_CACHE.'photo/'.$m['user_name'].'.jpg')){
+// 				$userphoto = $m['user_name'];
+// 			}else{
+// 				$userphoto = 'default';
+// 			}
 
-			echo "<img src='../../cache/photo/".$userphoto.".jpg'>";
-			echo "</div>".K_NEWLINE;
-			echo "</div>".K_NEWLINE;
-			echo "<br/>";
-			// echo 'xxx'.$str_arr[7];
+// 			echo "<img src='../../cache/photo/".$userphoto.".jpg'>";
+// 			echo "</div>".K_NEWLINE;
+// 			echo "</div>".K_NEWLINE;
+// 			echo "<br/>";
+// 			// echo 'xxx'.$str_arr[7];
 			
-			$mapel = array();
-			$i=0;
-			foreach ($nama_mapel as $datamapel){
-				if($str_arr[7+$i]!=0){
-					$mapel[] = array($datamapel,$str_arr[7+$i]);
-				}
-				$i++;
-			}
+// 			$mapel = array();
+// 			$i=0;
+// 			foreach ($nama_mapel as $datamapel){
+// 				if($str_arr[7+$i]!=0){
+// 					$mapel[] = array($datamapel,$str_arr[7+$i]);
+// 				}
+// 				$i++;
+// 			}
 			
 			
 			
-			echo '<span class="splbl_skl '.$tabel_nilai_classpub.'">Data perolehan nilai </span><span class="'.$tabel_nilai_classpub.'">:</span>';			
-			echo '<table class="testlist mt-10 '.$tabel_nilai_classpub.'">';
-			echo '<tr style="border-bottom:3px solid #336799"><th width="25px">No</th><th>Nama Mata Pelajaran</th><th width="60px">Nilai</th></tr>';
+// 			echo '<span class="splbl_skl '.$tabel_nilai_classpub.'">Data perolehan nilai </span><span class="'.$tabel_nilai_classpub.'">:</span>';			
+// 			echo '<table class="testlist mt-10 '.$tabel_nilai_classpub.'">';
+// 			echo '<tr style="border-bottom:3px solid #336799"><th width="25px">No</th><th>Nama Mata Pelajaran</th><th width="60px">Nilai</th></tr>';
 			
-			$no=1;
-			$sum_nil=array();
-			/* foreach ($mapel as $data){
-				$sum_nil[]=$data[1];
-				echo '<tr><td class="center">'.$no++.'</td><td>'.$data[0].'</td><td class="center">'.number_format($data[1],$decnum,',','.').'</td></tr>';
-			} */
-			foreach ($mapel as $data){
-			$sum_nil[]=$data[1];
-			if(strpos($data[0],'#')){
-				$xxx = preg_split ("/\#/", $data[0]);
-				$data[0] = strstr($data[0], '#');
-				$data[0] = str_replace('#','',$data[0]);
-				$newtr = '<tr style="text-align: left;background: var(--col-4);color: #fff;"><td colspan="2" class="ft-bold">'.$xxx[0].'</td><td></td></tr>';
-			}else{
-				$xxx = array('','');
-				$newtr = '';
-			}
+// 			$no=1;
+// 			$sum_nil=array();
+// 			/* foreach ($mapel as $data){
+// 				$sum_nil[]=$data[1];
+// 				echo '<tr><td class="center">'.$no++.'</td><td>'.$data[0].'</td><td class="center">'.number_format($data[1],$decnum,',','.').'</td></tr>';
+// 			} */
+// 			foreach ($mapel as $data){
+// 			$sum_nil[]=$data[1];
+// 			if(strpos($data[0],'#')){
+// 				$xxx = preg_split ("/\#/", $data[0]);
+// 				$data[0] = strstr($data[0], '#');
+// 				$data[0] = str_replace('#','',$data[0]);
+// 				$newtr = '<tr style="text-align: left;background: var(--col-4);color: #fff;"><td colspan="2" class="ft-bold">'.$xxx[0].'</td><td></td></tr>';
+// 			}else{
+// 				$xxx = array('','');
+// 				$newtr = '';
+// 			}
 			
-			if(strpos($data[0],'@')){
-				$yyy = preg_split ("/\@/", $data[0]);
-				$data[0] = strstr($data[0], '@');
-				$data[0] = str_replace('@','',$data[0]);
+// 			if(strpos($data[0],'@')){
+// 				$yyy = preg_split ("/\@/", $data[0]);
+// 				$data[0] = strstr($data[0], '@');
+// 				$data[0] = str_replace('@','',$data[0]);
 				
-				if(strpos($yyy[0],']')){
-					$aaa = preg_split ("/\]/", $yyy[0]);
-					$yyy[0] = strstr($yyy[0], ']');
-					$yyy[0] = str_replace(']','',$yyy[0]);
-					$newtr2 = '<tr><td class="ta-center">'.$aaa[0].'</td><td>'.$yyy[0].'</td><td></td></tr>';
-				}else{
-					$newtr2 = array('','');
-				}	
-			}else{
-				$yyy = array('','');
-				$newtr2 = '';
-			}
+// 				if(strpos($yyy[0],']')){
+// 					$aaa = preg_split ("/\]/", $yyy[0]);
+// 					$yyy[0] = strstr($yyy[0], ']');
+// 					$yyy[0] = str_replace(']','',$yyy[0]);
+// 					$newtr2 = '<tr><td class="ta-center">'.$aaa[0].'</td><td>'.$yyy[0].'</td><td></td></tr>';
+// 				}else{
+// 					$newtr2 = array('','');
+// 				}	
+// 			}else{
+// 				$yyy = array('','');
+// 				$newtr2 = '';
+// 			}
 			
-			if(strpos($data[0],']')){
-				$zzz = preg_split ("/\]/", $data[0]);
-				$data[0] = strstr($data[0], ']');
-				$data[0] = str_replace(']','',$data[0]);
-			}else{
-				$zzz = array('','');
-			}
+// 			if(strpos($data[0],']')){
+// 				$zzz = preg_split ("/\]/", $data[0]);
+// 				$data[0] = strstr($data[0], ']');
+// 				$data[0] = str_replace(']','',$data[0]);
+// 			}else{
+// 				$zzz = array('','');
+// 			}
 			
-			$no++;
-			echo $newtr2.$newtr.'<tr><td class="ta-center">'.$zzz[0].'</td><td>'.$data[0].'</td><td class="center">'.number_format($data[1],0,',','.').'</td></tr>';
-		}
+// 			$no++;
+// 			echo $newtr2.$newtr.'<tr><td class="ta-center">'.$zzz[0].'</td><td>'.$data[0].'</td><td class="center">'.number_format($data[1],0,',','.').'</td></tr>';
+// 		}
 			
-			echo '<tr class="ft-bold ta-center" style="background:var(--col-1) !important;color:var(--col-7)"><td colspan=2>RATA-RATA</td><td class="ta-center ft-bold">'.number_format(array_sum($sum_nil)/($no-1),$decnum,',','.').'</td></tr>';
-			echo '</table>';
+// 			echo '<tr class="ft-bold ta-center" style="background:var(--col-1) !important;color:var(--col-7)"><td colspan=2>RATA-RATA</td><td class="ta-center ft-bold">'.number_format(array_sum($sum_nil)/($no-1),$decnum,',','.').'</td></tr>';
+// 			echo '</table>';
 			
-		}else{
-			echo '<h3 style="text-align:center; color:#f44336"><span class="icon-warning"></span> <br/><br/>SKL TIDAK VALID !!!</h3>'.K_NEWLINE;
-		}
-	}else{
-		echo '<h3 style="text-align:center; color:#f44336"><span class="icon-warning"></span> <br/><br/>SKL TIDAK VALID !!!</h3>'.K_NEWLINE;
-	}
-	//echo '</div>'.K_NEWLINE;
-	die();
-}
+// 		}else{
+// 			echo '<h3 style="text-align:center; color:#f44336"><span class="icon-warning"></span> <br/><br/>SKL TIDAK VALID !!!</h3>'.K_NEWLINE;
+// 		}
+// 	}else{
+// 		echo '<h3 style="text-align:center; color:#f44336"><span class="icon-warning"></span> <br/><br/>SKL TIDAK VALID !!!</h3>'.K_NEWLINE;
+// 	}
+// 	//echo '</div>'.K_NEWLINE;
+// 	die();
+// }
 
 if($_SESSION['session_user_level']<2){
 	?>
@@ -636,15 +636,29 @@ if($_SESSION['session_user_level']<2){
 	<?php
 }
 
-if(strlen($userskldata['user_ssn'])<1){
-	echo 'Data SKL untuk <strong>'.$_SESSION['session_user_firstname'].'</strong> belum disiapkan. Silakan import data user terlebih dahulu menggunakan template yang telah disediakan. <a href="index.php" class="xmlbutton">Klik disini</a> untuk kembali ke beranda.';
-	die();
-}
+// if(strlen($userskldata['user_ssn'])<1){
+// 	echo 'Data SKL untuk <strong>'.$_SESSION['session_user_firstname'].'</strong> belum disiapkan. Silakan import data user terlebih dahulu menggunakan template yang telah disediakan. <a href="index.php" class="xmlbutton">Klik disini</a> untuk kembali ke beranda.';
+// 	die();
+// }
 
-echo '<p>'.$text_siap.'</p>
-<a href="#" id="bismillah" class="xmlbutton">'.$text_tombol_siap.'</a><br/>
-</div>
-'.K_NEWLINE;
+// echo '<p>'.$text_siap.'</p>
+// <a href="#" id="bismillah" class="xmlbutton">'.$text_tombol_siap.'</a><br/>
+// </div>
+// '.K_NEWLINE;
+
+echo '<div class="mb-3">'.K_NEWLINE;
+
+echo '<div class="card">'.K_NEWLINE;
+
+echo '<div class="card-body">'.K_NEWLINE;
+?>
+
+<div class="alert alert-info"><h5>Menu ini sedang dalam pengembangan</h5><p>Menu ini saat ini belum dapat diakses dikarenakan sedang dalam masa pengembangan oleh developer. Mohon tunggu sampai update berikutnya, terima kasih.</p></div>
+<?php
+
+echo '</div>'.K_NEWLINE;
+echo '</div>'.K_NEWLINE;
+echo '</div>'.K_NEWLINE;
 
 // echo date("F", strtotime("04"));
 // date("j F Y", strtotime($str_arr[2])
@@ -940,3 +954,4 @@ require_once('../code/tce_page_footer.php');
 	document.getElementById("print_skl").addEventListener("click", printSKL);
 	document.querySelector("title").textContent = thispage_title+" - "+firstname+" - "+groups;
 </script>
+*/

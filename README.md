@@ -4,8 +4,8 @@ Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah m
 
 ------------------------------------------------------
 # This site is authored by:
-* - Miftahul Huda Guntara
-* - Muhammad Rizky Rifaldi
+   - Miftahul Huda Guntara
+   - Muhammad Rizky Rifaldi
 
 <div style="text-align: center;">
     <div style="float: left;">

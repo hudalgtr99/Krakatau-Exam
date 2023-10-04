@@ -7,13 +7,9 @@ Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah m
    - Miftahul Huda Guntara
    - Muhammad Rizky Rifaldi
 
-<div style="text-align: center;">
-    <div style="float: left;">
-        <img src="https://i.postimg.cc/2y6CRpWk/Logo-Universitas-Lampung-removebg-preview.png" alt="Universitas Lampung" style="display: block; margin: 0 auto;">
-    </div>
-
+<div style="float: left;">
+    <img src="https://i.postimg.cc/2y6CRpWk/Logo-Universitas-Lampung-removebg-preview.png" alt="Universitas Lampung" style="display: block; margin: 0 auto; width: 100px; height: auto;">
 </div>
-
 ------------------------------------------------------
 
 

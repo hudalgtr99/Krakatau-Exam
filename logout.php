@@ -14,9 +14,9 @@ $x = explode(',',str_replace('"','',base64_decode($arr)));
 <meta name="language" content="id" />
 <meta name="tcexam_level" content="0" />
 <meta name="description" content="[TCExam] Enhancement of Original TCExam with Additional Features  [TCExam (c) 2004-2020 Nicola Asuni - Tecnick.com - tcexam.com]" />
-<meta name="author" content="Maman Sulaeman"/>
-<meta name="reply-to" content="mamansulaeman86@gmail.com" />
-<meta name="keywords" content="TCExam, TCExam Mobile Friendly, e-exam, CBT, CAT" />
+<meta name="author" content="Miftahul Huda Guntara"/>
+<meta name="reply-to" content="hudalgtr99@gmail.com" />
+<meta name="keywords" content="Krakatau CBT Exam, CBT, CAT, Exam" />
 <meta name="google" content="notranslate">
 <meta property="og:title" content="Login">
 <meta property="og:type" content="">
@@ -64,7 +64,7 @@ FJ_start_timer(false, 1616228600, 'maaf, waktu yang tersedia untuk menyelesaikan
 <div id="containerWrapper" class="p-1em-768"><div class="container">
 <div class="tceformbox login_box" style="border-radius:1em">
 <div id="insCont" class="ta-center p-1em">
-	<div id="appDesc"><p class="m-0 mt-10 px-5 c-gray1">Computer Based Test Application</p></div>
+	<div id="appDesc"><p class="m-0 mt-10 px-5 c-gray1">Krakatau Sarana Properti CBT Exam</p></div>
 	<h3 class="p-05em brad5" style="background:var(--col-12)">Anda sudah logout.<br/>Terimakasih telah berpartisipasi dalam Ujian</h3>
 	<p><a href="index.php">Apabila ingin kembali login, silakan klik disini</a></p>
 </div>
@@ -74,12 +74,5 @@ FJ_start_timer(false, 1616228600, 'maaf, waktu yang tersedia untuk menyelesaikan
 
 </div>
 </div>
-<script>
-setTimeout(function(){
-	<?php
-		echo 'window.location.replace("'.$x[rand(0,20)].'")';
-	?>
-},3000)
-</script>
 </body>
 </html>

@@ -2,6 +2,8 @@
 
 Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah memberikan access open source untuk user dan developer untuk mengembangkan aplikasi ini secara mandiri. Projek ini merupakan Cloning dari TMF (TCExam Mobile Friendly) dengan modifikasi pada loading soal dan kirim jawaban melalui AJAX dari sisi peserta ujian yang telah dibuat oleh "Maman Sulaeman".
 
+- Link Tutorial untuk admin dan pelamar: https://drive.google.com/drive/folders/1HrFOIUoSUCj0_w1VuilR2BvSnJ1FQjSa?usp=sharing 
+
 ------------------------------------------------------
 # This site is authored by:
    - <a href="https://github.com/hudalgtr99">Miftahul Huda Guntara</a>

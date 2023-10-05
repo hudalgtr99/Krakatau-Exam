@@ -16,7 +16,13 @@ require_once('tce_page_header.php');
 echo '<div class="card mb-3">'.K_NEWLINE;
 echo '<div class="card-body">'.K_NEWLINE;
 echo '<span id="tcexam-desc">TMFCBT (TCExam Mobile Friendly Computer Based Test) adalah proyek turunan TCExam yang diprakarsai oleh <a href="https://mamans86.blogspot.com">@mamans86</a>. TMFCBT memiliki banyak fitur baru jika dibandingkan dengan TCExam original. Selain itu TMFCBT banyak melakukan peningkatan dari sisi kinerja aplikasi dan tampilan.</span><br/><hr/>'.K_NEWLINE;
+echo '<span id="tcexam-desc">Berdasarkan proyek yang telah dikerjakan tersebut, kami mencoba meremake kembali proyek ini menjadi Aplikasi yang dikhususkan untuk Ujian perekrutan Pelamar pada Krakatau Sarana Properti dengan beberapa fungsi yang telah diubah dan diperbaharui sesuai dengan kebutuhan perusahaan. Proyek turunan ini di kerjakan dalam rangka penyelesaian Tugas Magang saya <a href="https://github.com/hudalgtr99">Miftahul Huda Guntara</a> dan teman saya <a href="https://github.com/smilling07">Muhammad Rizky Rifaldi</a> mahasiswa dari Universitas Lampung. Jika terdapat kritik dan saran dapat mengirim pesan email ke: <a class="tmfpatch" href="mailto:'.K_SITE_REPLY.'">'.K_SITE_AUTHOR.'</a></span><br/><hr/>'.K_NEWLINE;
+
 echo '<span id="tcexam-desc">'.$l['d_tcexam_desc'].'</span>'.K_NEWLINE;
+
+
+
+
 
 echo '<ul class="credits">'.K_NEWLINE;
 echo '<li><strong>'.$l['w_author'].':</strong> Nicola Asuni</li>'.K_NEWLINE;

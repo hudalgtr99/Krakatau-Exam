@@ -72,7 +72,7 @@ if (!F_are_files_writable(array($progress_log))) {
 <div class="container" style="padding:0 !important">
 
 <div class="tceformbox">
-<h1 style="background:#336799;color:#fff;text-align:center;padding:1em;box-shadow:0px 7px 7px 0px rgba(0,0,0,0.15)"><img style="box-shadow:0px 7px 7px 0px rgba(0,0,0,0.15)" src="../images/logo_tcexam_118x25.png"><br/><br/>TCExam - Installation</h1>
+<h1 style="background:#336799;color:#fff;text-align:center;padding:1em;box-shadow:0px 7px 7px 0px rgba(0,0,0,0.15)"><img style="box-shadow:0px 7px 7px 0px rgba(0,0,0,0.15)" src="../images/logo_kcbtexam_118x25.png"><br/><br/>TCExam - Installation</h1>
 <div style="padding:5px;display:block;margin:10px;border:1px solid #aaa;background:#fff;border-radius:5px;box-shadow:0px 7px 7px 0px rgba(0,0,0,0.15)">
 <p>
 <strong>This is the <a href="index.htm" title="installation manual">installation</a> script of <a href="http://www.tcexam.org" title="TCExam website">TCExam</a> by <a href="http://www.tecnick.com">Tecnick.com LTD</a></strong>

@@ -259,7 +259,7 @@ div.header {
 }
 
 /* header logo ------------ */
-div.header div.left {background: repeating-linear-gradient(180deg, #375e84 0%, #336799 50%);background-image:url(../../images/logo_tcexam_white_noborder_transparent_114x21.png);background-position: 2px 5px;background-repeat: no-repeat;border: 0px none;float: left;height:40px;margin: 5px 0px 0px 11px;padding: 0px 0px 0px 0px;text-align: left;width: 125px;}
+div.header div.left {background: repeating-linear-gradient(180deg, #375e84 0%, #336799 50%);background-image:url(../../images/logo_kcbtexam_white_noborder_transparent_114x21.png);background-position: 2px 5px;background-repeat: no-repeat;border: 0px none;float: left;height:40px;margin: 5px 0px 0px 11px;padding: 0px 0px 0px 0px;text-align: left;width: 125px;}
 
 /* header banner ------------ */
 div.header div.right {

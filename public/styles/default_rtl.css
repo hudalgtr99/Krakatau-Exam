@@ -120,7 +120,7 @@ div#scrollayer ul li span.active{padding:0.5em 0.75em;display:block;font-weight:
 div#scrollayer ul li a{display: block;padding: 0.5em 0;}
 div#scrollayer ul li a:hover{font-weight:bold;color:#343a40}
 p#menu_close {position: absolute;font-size: 1.25em;cursor: pointer;color:var(--col-6);line-height: 1;margin: 0;top: 0;text-align: center;left: 0;background: var(--col-3t);border-radius: 0 0 50px;padding: 0.25em 0.75em 0.35em 0.5em}
-div#menu_open{background:url(../../images/logo_tcexam_white_noborder_transparent_114x21.png);font-size: x-large;background-repeat: no-repeat;background-position: 47px;padding: 0.4em 0 0.4em 0.4em;color: var(--col-7);width:50%;flex-grow:1}div#topRight{width:auto;color:var(--col-7);text-transform:capitalize}
+div#menu_open{background:url(../../images/logo_kcbtexam_white_noborder_transparent_114x21.png);font-size: x-large;background-repeat: no-repeat;background-position: 47px;padding: 0.4em 0 0.4em 0.4em;color: var(--col-7);width:50%;flex-grow:1}div#topRight{width:auto;color:var(--col-7);text-transform:capitalize}
 #userInfoBtn,#langSelBtn{position:relative;width:30px;height:30px;border-radius:50px;text-align:center;border: 2px solid var(--col-7);display: flex;align-items: center;justify-content: center}
 #topRight,#langSelBtn{margin-right:10px}
 /* .close-btn{position:absolute;top:-9px;right:-9px;background:var(--col-12);color:var(--col-1);padding:0px 8px 3px 8px;border-radius:100px;font-size:20px;font-weight:bold} */

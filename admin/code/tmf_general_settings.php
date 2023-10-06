@@ -1066,7 +1066,7 @@ echo '</div>';
 echo '<div class="card border rounded mt-3 shadow-none">';
 echo '<div class="card-header"><i class="pe-7s-camera"></i>&nbsp;Login Background</div>';
 echo '<div class="card-body">';
-echo getFormRowTextInput('loginBg', 'Login Background Image', 'Login Background Image', 'Can be path to image or image URL Address. Leave blank to disable.<br/>Example: https://source.unsplash.com/lI1z94nf0RM/1600x900<br/>or ../../images/background.jpg', $json['loginBg'], '', 255, false, false, false);
+echo getFormRowTextInput('loginBg', 'Login Background Image', 'Login Background Image', 'Can be path to image or image URL Address. Leave blank to disable.<br/>Example: https://source.unsplash.com/lI1z94nf0RM/1600x900<br/>or ../../images/background.png', $json['loginBg'], '', 255, false, false, false);
 
 // echo getFormRowTextInput('loginBgPosition', 'Position', 'Position', '', $json['loginBgPosition'], '', 255, false, false, false);
 echo '<div class="form-row">';

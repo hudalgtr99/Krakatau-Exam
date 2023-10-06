@@ -7,6 +7,8 @@ Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah m
 * Password Unlock/Close untuk user: krakatau1234
 * Password Admin localhost (Config user): krakatau2023
 
+* Support us: https://trakteer.id/acediazz
+
 ------------------------------------------------------
 # This site is authored by:
    - <a href="https://github.com/hudalgtr99">Miftahul Huda Guntara</a>

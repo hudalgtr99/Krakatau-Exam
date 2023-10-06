@@ -28,7 +28,7 @@
 
 <style>#termbtn{display:none}</style><style>div.pagehelp{display:none}</style>
 <style>.tmfpatch{color: var(--col-11)!important;border:1px solid var(--col-15t);border-radius:50em;padding:0.05em 0.35em;}</style></head>
-<body style="background-image:url(images/background.jpg);background-position:center;background-size:auto;background-blend-mode:normal">
+<body style="background-image:url(images/background.png);background-position:center;background-size:auto;background-blend-mode:normal">
 <div class="backdrop" onclick="drawerClose()"><div id="reloadCont" style="display:none;color:#fff;position:fixed;top:45%;left:50%;transform:translate(-50%,-50%);"><div style="margin:25px auto;position:relative;font-size:xxx-large;width:50px;height:50px" class="anim-rotate"><span id="bigDeg" style="position:absolute;top:98%;left:16%;transform:translate(-50%, -50%);font-weight:lighter;font-size:65px;">&deg;</span><span style="position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-weight:bold"><sup>&deg;</sup></span><span style="position:absolute;top:120%;left:90%;transform:translate(-50%, -50%);"><sup>&deg;</sup></span></div><span style="cursor:pointer;pointer-events:all;padding:0.25em 1.25em;border-radius:100px;border:2px solid #fff;user-select:none" onclick="location.reload()">RELOAD</span></div></div>
 
 <div class="qlistCont" id="langSelID">

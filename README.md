@@ -5,7 +5,7 @@ Aplikasi ujian ini saya buat berdasarkan aplikasi ujian TCExam yang mana telah m
 - Link Tutorial untuk admin dan pelamar: https://drive.google.com/drive/folders/1HrFOIUoSUCj0_w1VuilR2BvSnJ1FQjSa?usp=sharing 
 
 * Password Unlock/Close untuk user: krakatau1234
-* Password Admin localhost (Condig user): krakatau 2023
+* Password Admin localhost (Config user): krakatau2023
 
 ------------------------------------------------------
 # This site is authored by:
